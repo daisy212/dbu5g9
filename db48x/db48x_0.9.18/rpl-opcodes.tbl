@@ -1,0 +1,36 @@
+// ****************************************************************************
+//  rpl-opcodes.tbl                                              DB48X project
+// ****************************************************************************
+//
+//   File Description:
+//
+//     List of all commands for RPL opcodes
+//
+//
+//
+//
+//
+//
+//
+//
+// ****************************************************************************
+//   (C) 2022 Christophe de Dinechin <christophe@dinechin.org>
+//   This software is licensed under the terms outlined in LICENSE.txt
+// ****************************************************************************
+//   This file is part of DB48X.
+//
+//   DB48X is free software: you can redistribute it and/or modify
+//   it under the terms outlined in the LICENSE.txt file
+//
+//   DB48X is distributed in the hope that it will be useful,
+//   but WITHOUT ANY WARRANTY; without even the implied warranty of
+//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+// ****************************************************************************
+
+RPL_OPCODE(EVAL)               // Evaluate the object (e.g. push on stack)
+RPL_OPCODE(SIZE)               // Compute the size of the object
+RPL_OPCODE(PARSE)              // Parse the object
+RPL_OPCODE(RENDER)             // Render the object
+RPL_OPCODE(HELP)               // Return the help topic for an object
+
+#undef RPL_OPCODE
