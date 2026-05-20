@@ -1,0 +1,29 @@
+"Quick"
+
+"in",	"254/10_mm"
+"mm",	"="
+"km/h",	"="
+"mph",	"="
+"km",	"="
+"mi",	"="
+
+
+"=Cycle"
+"in",           "mm"
+"mm",           "cm"
+"cm",           "in"
+"ft",           "m"
+"lb",           "kg"
+"oz",           "g"
+"USD",          "EUR"
+"EUR",          "CHF"
+"CHF",          "USD"
+
+"Money"
+
+"USD",          "1_USD"
+"EUR",          "1.07_USD"
+"GBP",          "1.24_USD"
+"CAD",          "0.73_USD"
+"AUD",          "0.65_USD"
+"CHF",          "1.11_USD"

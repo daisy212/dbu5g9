@@ -1,0 +1,109 @@
+@  PLANE 0: UNSHIFTED
+[
+ToolsMenu		Store		ToggleCustomMenu		StackEditor		UIAlpha		UIRightShift
+UIExit	    	LastMenu	LastMenu				Edit			UIRight		UILeftShift
+CircularMenu   	PowersMenu	BasesMenu				sqrt			pow				inv
+Duplicate		Swap		neg			Cycle	Drop
+MathMenu		"7"			"8"			"9"		/
+UnitsMenu		"4"			"5"			"6"		*
+StackMenu		"1"			"2"			"3"		-
+UIAlgebraic		"0"			UIDecimal	Run		+
+]
+
+
+
+@ PLANE 1: LEFT SHIFTED
+[
+MainMenu		ModesMenu		MemoryMenu		EditorHistory	ToggleUserMode		""
+OffWithImage	DebugMenu		FilesMenu		EditMenu		Show 				UILeftShift
+AnglesMenu		ComplexMenu		FractionsMenu	sq				xroot				abs
+""				LastArg			"" 				PartsMenu		ClearThingsMenu
+ConstantsMenu	SolverMenu		IntegrationMenu	 	""			StatisticsMenu
+UnitsConversionsMenu	FlagsMenu	""	""	ProbabilitiesMenu
+""				ToDecimal	""		""	ProgramMenu
+"[	]"			UIText			"{	}"		"«	»"	Catalog
+]
+
+@ PLANE 2: RIGHT SHIFTED
+[
+""				UserInterfaceModesMenu	Library 			""				"" 			""
+SaveState		DisplayModesMenu		UpDir 				""				SystemSetup	UILeftShift
+HyperbolicMenu	RealMenu				AlgebraMenu			Ⓒπ				exp			ln
+CharactersMenu	Undo					RangeMenu			PlotMenu		""
+EquationsMenu	SymbolicMenu			PolynomialsMenu		GraphicsMenu	FinanceSolverMenu
+""				TextMenu				"" 					TimeMenu		NumbersMenu
+""				""						LoopsMenu			TestsMenu		ObjectMenu
+MatrixMenu		CharactersMenu			ListMenu 			""				Help
+]
+
+@ PLANE 3: ALPHA UNSHIFTED
+[
+""		""		""		""		UIAlpha		UIRightShift
+""		""		UILeft	Edit	UIRight		UILeftShift
+"A"		"B"		"C"		"D"		"E"		"F"
+UIEnter				"G"		"H"		"I"		UIBackspace
+"J"		"K"		"L"		"M"		"N"
+"O"		"P"		"Q"		"R"		"S"
+"T"		"U"		"V"		"W"		"X"
+"Y"		"Z"		":	:"	","		" "		
+]
+
+@ PLANE 4: ALPHA LEFT SHIFTED
+[
+""		""		""		""		UIAlpha		UIRightShift
+""		""		UILeft	Edit	UIRight		UILeftShift
+"Σ"		"^"		"√"		"∂"		"ρ"		"("
+"▶"		"π"		"%"		""		UIDelete
+""		"7"		"8"		"9"		"÷"
+""		"4"		"5"		"6"		"×"
+""		"1"		"2"		"3"		"-"
+""		"0"		"."		"«	»"	"+"
+]
+
+@ PLANE 5: ALPHA RIGHT SHIFTED
+[
+""		""		""		""		UIAlpha		UIRightShift
+""		""		UILeft	Edit	UIRight		UILeftShift
+"∏"		"∆"		"↑"		"μ"		"θ"			"\\"
+"n"		""		"±"		"≤"		"≠"	
+"Ω"		"?"		"∫"		"["		"/"
+"€"		"#"		"∞"		"|"		"*"
+")"		"&"		"@"		"$"		"…"
+"("		";"		"·"		""		"!'
+]
+
+@ PLANE 6: LOWERCASE UNSHIFTED
+[
+""		""		""		""		UIAlpha		UIRightShift
+""		""		UILeft					Edit			UIRight		UILeftShift
+"a"		"b"		"c"		"d"		"e"		"f"
+UIEnter	"g"		"h"		"i"		UIBackspace
+"j"		"k"		"l"		"m"		"n"
+"o"		"p"		"q"		"r"		"s"
+"t"		"u"		"v"		"w"		"x"
+"y"		"z"		":"		"_"		","
+]
+
+@ PLANE 7: LOWERCASE LEFT SHIFTED
+[
+""		""		""		""		UIAlpha		UIRightShift
+""		""		UILeft					Edit			UIRight		UILeftShift
+"A"		"B"		"C"		"D"		"E"		"F"
+UINoAlpha	"G"		"H"		"I"		UIDelete
+"J"		"K"		"L"		"M"		"N"
+"O"		"P"		"Q"		"R"		"S"
+"T"		"U"		"V"		"W"		"X"
+"Y"		"Z"		":"		"_"		","
+]
+
+@ PLANE 8: LOWERCASE RIGHT SHIFTED
+[
+""		""		""		""		UIAlpha		UIRightShift
+""		""		UILeft					Edit			UIRight		UILeftShift
+"α"		"β"		"γ"		"δ"		"ε"		"φ"
+"Γ"		"Π"		"Σ"		"ω"		""
+"θ"		"?"		"∫"		"["		"/"
+"Δ"		"#"		"∞"		"|"		"*"
+"λ"		"&"		"@"		"$"		"…"
+"ν"		";"		"·"		"{	}"	"!"
+]

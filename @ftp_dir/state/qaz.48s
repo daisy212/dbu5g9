@@ -1,0 +1,523 @@
+{ Ⓒπ '→Num' }
+'CustomMenu' STO
+
+{ 1 2 0 0 LinearFit }
+'ΣParameters' STO
+
+{
+	-10-ⅈ6 10+ⅈ6
+	{ x -10 10 } 0
+	{
+		0+ⅈ0
+		{ 1 1 } "x" "y"
+	}
+	FunctionPlot y
+}
+'PlotParameters' STO
+
+2.24016609401019937823833_l
+'V' STO
+
+273_K
+'T' STO
+
+10_atm
+'P' STO
+
+1_mol
+'n' STO
+
+«
+	«
+		0 25
+		for i
+			i 1_m/s × 1_km/yr
+			Convert Drop
+		next
+	»
+	TimedEval
+»
+'UnitsBench' STO
+
+«
+	@ Helper program to draw a line at index i
+	«
+		10 6
+		→ i XSize YSize
+		«
+			@ Build starting point
+			{ }
+			@ X coordinate
+			i sin XSize × +
+			@ Y coordinate
+			i 2.17 × cos YSize
+			× +
+			@ Build end point
+			{ }
+			@ X coordinate
+			i 2.30 × sin XSize
+			× +
+			@ Y coordinate
+			i 2.61500 × cos YSize
+			× +
+			@ Draw the line and wait for 1ms
+			DrawLine
+		»
+	»
+	→ MyLine
+	«
+		«
+			Degrees ClearLCD 0
+			360000
+			for i
+				@ Erase old line
+				1 10
+				for g
+					g 10 ÷ GrayPattern
+					Foreground i 100
+					g + - MyLine
+				next
+				@ Set random foreground and draw new line
+				if
+					Ticks 1000 ÷ 10
+					mod 7 <
+				then
+					16#0 Foreground
+				else
+					16#1111111111111111
+					i 16 mod × Foreground
+				end i MyLine
+				@ Wait 1ms
+				1.00E-3 Wait
+			next
+		»
+	»
+	TimedEval
+»
+'Lines' STO
+
+«
+	«
+		@ User RPL program lifted straight from
+		@ https://www.hpmuseum.org/cgi-sys/cgiwrap/hpmuseum/articles.cgi?read=700
+		0
+		do
+			8 Swap 1 +
+			while
+				Duplicate2
+				do
+					1 -
+				until
+					Duplicate2 5 + Pick
+					- abs Duplicate2
+					- × not
+				end
+			repeat
+				Drop
+				while
+					Swap Duplicate 1
+					same
+				repeat
+					-
+				end
+				1 - Swap
+			end
+			Drop
+		until
+			Duplicate 8 same
+		end
+		→List
+	»
+	@ Compute execution duration of that code
+	TimedEval
+»
+'Nqueens' STO
+
+«
+	«
+		@ Helper program to generate the coordinates
+		«
+			→ i
+			«
+				16#1111111111111111
+				i 16 mod × Foreground
+				{ } i 2.51 × sin
+				9.50 × + i 3.21 ×
+				cos 4.50 × 2.00 +
+				+
+				{ } i 1.03 × sin
+				9.50 × + i 5.17 ×
+				cos 4.50 × 2.00 +
+				+
+			»
+		»
+		→ Coords
+		«
+			ClearLCD 16#0 Foreground
+			" Rectangles "
+			{ 16#C8 16#B4 3 True
+				True 0 1 } DrawText
+			0 LineWidth 0 300
+			for i
+				i Coords DrawRectangle
+				1.00E-2 Wait
+			next
+			ClearLCD 16#0 Foreground
+			" Outlines "
+			{ 16#C8 16#B4 3 True
+				True 0 1 } DrawText
+			0 LineWidth 0 300
+			for i
+				i 7 mod 1 + LineWidth
+				i Coords DrawRectangle
+				1.00E-2 Wait
+			next
+			ClearLCD 16#0 Foreground
+			" Ellipse "
+			{ 16#C8 16#B4 3 True
+				True 0 1 } DrawText
+			0 LineWidth 0 300
+			for i
+				i Coords DrawEllipse
+				1.00E-2 Wait
+			next
+			ClearLCD 16#0 Foreground
+			" Outlines "
+			{ 16#C8 16#B4 3 True
+				True 0 1 } DrawText
+			0 LineWidth 0 300
+			for i
+				i 7 mod 1 + LineWidth
+				i Coords DrawEllipse
+				1.00E-2 Wait
+			next
+			ClearLCD 16#0 Foreground
+			" Rounded Rect "
+			{ 16#C8 16#B4 3 True
+				True 0 1 } DrawText
+			0 LineWidth 0 300
+			for i
+				i Coords 16#0 i 75
+				mod + DrawRoundedRectangle
+				1.00E-2 Wait
+			next
+			ClearLCD 16#0 Foreground
+			" Outlines "
+			{ 16#C8 16#B4 3 True
+				True 0 1 } DrawText
+			0 LineWidth 0 300
+			for i
+				i 7 mod 1 + LineWidth
+				i Coords 16#0 i 75
+				mod + DrawRoundedRectangle
+				1.00E-2 Wait
+			next
+			ClearLCD 16#0 Foreground
+			" Clipping "
+			{ 16#C8 16#B4 3 True
+				True 0 1 } DrawText
+			0 LineWidth
+			{ 30 30 370 150 } Clip
+			0 300
+			for i
+				i Coords 16#0 i 75
+				mod + DrawRoundedRectangle
+				1.00E-2 Wait
+			next
+			{ } Clip
+		»
+	»
+	@ Compute execution duration of that code
+	TimedEval
+»
+'LcdShapes' STO
+
+«
+	@ Restore foreground and background in case we interrupted another program
+	0 GrayPattern Foreground
+	64 WordSize 1 GrayPattern
+	Background 0 300
+	for i
+		"Text line i=" i + " "
+		+ i 9 mod DrawText 1.00E-2
+		Wait
+	next
+	0 300
+	for i
+		"Fractional line i="
+		i + " " + i 16 ÷ 9
+		mod DrawText 1.00E-2
+		Wait
+	next
+	«
+		Duplicate2 DrawText
+		1.00E-3 Wait 'Foreground'
+		Recall
+		→ fg
+		«
+			1 GrayPattern Foreground
+			DrawText fg Foreground
+		»
+	»
+	→ DispThenErase
+	«
+		ClearLCD 0 300
+		for i
+			" Pixel positioning "
+			{ 16#C8 16#78 2 True
+				True 0 0 } DrawText
+			"Pos "
+			{ } 16#0 i + 223 mod
+			+ 16#0 i 45 mod + 25
+			+ + Duplicate Rot Swap
+			→Text + " " + Swap
+			DispThenErase
+		next
+		ClearLCD Degrees 1 360
+		for i
+			" Complex positioning "
+			{ 16#C8 16#78 2 True
+				True 0 0 } DrawText
+			" Angle " i + 4.50
+			i ℝ→Polarℂ 2.90
+			- DispThenErase
+		next
+		ClearLCD 1 360
+		for i
+			" Scaled positioning "
+			{ 16#C8 16#78 2 True
+				True 0 0 } DrawText
+			" Angle " i +
+			{ } i cos 7 × 2.90
+			- + i 3 × sin 3 ×
+			+ DispThenErase
+		next
+	»
+	ClearLCD " Fonts "
+	{ 16#C8 16#B4 2 True
+		True 0 1 } DrawText
+	0 11
+	for f
+		"Font " f +
+		{
+			{ 16#A 16#0 }
+			{ 16#A 16#30 }
+			{ 16#A 16#50 }
+			{ 16#A 16#62 }
+			{ 16#A 16#82 }
+			{ 16#F0 16#0 }
+			{ 16#F0 16#19 }
+			{ 16#F0 16#2D }
+			{ 16#F0 16#40 }
+			{ 16#F0 16#54 }
+			{ 16#F0 16#78 }
+			{ 16#F0 16#96 }
+		}
+		f 1 + Get f + DrawText
+	next
+	1.50 Wait ClearLCD " Patterns "
+	{ 16#C8 16#B4 2 True
+		True 0 1 } DrawText
+	0 15
+	for p
+		16#1111111111111111
+		p × Foreground 0 11
+		for f
+			"Font " f +
+			{
+				{ 16#A 16#0 }
+				{ 16#A 16#30 }
+				{ 16#A 16#50 }
+				{ 16#A 16#62 }
+				{ 16#A 16#82 }
+				{ 16#F0 16#0 }
+				{ 16#F0 16#19 }
+				{ 16#F0 16#2D }
+				{ 16#F0 16#40 }
+				{ 16#F0 16#54 }
+				{ 16#F0 16#78 }
+				{ 16#F0 16#96 }
+			}
+			f 1 + Get f + DrawText
+		next
+		0.200 Wait
+	next
+	ClearLCD 16#0 Foreground
+	" Background "
+	{ 16#C8 16#B4 2 True
+		True 0 1 } DrawText
+	16#FFFFFFFFFFFFFFFF Foreground
+	0 15
+	for p
+		16#1111111111111111
+		p × Background 0 11
+		for f
+			"Font " f +
+			{
+				{ 16#A 16#0 }
+				{ 16#A 16#30 }
+				{ 16#A 16#50 }
+				{ 16#A 16#62 }
+				{ 16#A 16#82 }
+				{ 16#F0 16#0 }
+				{ 16#F0 16#19 }
+				{ 16#F0 16#2D }
+				{ 16#F0 16#40 }
+				{ 16#F0 16#54 }
+				{ 16#F0 16#78 }
+				{ 16#F0 16#96 }
+			}
+			f 1 + Get f + DrawText
+		next
+		0.200 Wait
+	next
+	ClearLCD 0 GrayPattern
+	Foreground 1 GrayPattern
+	Background " Align left "
+	{ 16#0 16#78 2 True True
+		1 0 } DrawText " Align Right "
+	{ 16#190 16#78 2 True
+		True -1 0 } DrawText
+	" Center "
+	{ 16#C8 16#78 2 True
+		True 0 0 } DrawText
+	" Align Top "
+	{ 16#C8 16#0 2 True True
+		0 1 } DrawText " Align Bottom "
+	{ 16#C8 16#F0 2 True
+		True 0 -1 } DrawText
+»
+'LcdText' STO
+
+«
+	«
+		@ --------------------------------------------------------------------
+		@
+		@	 Count prime numbers under a given value
+		@
+		@ --------------------------------------------------------------------
+		@ This is inspired by https://www.youtube.com/watch?v=vwI5xbqIM7g
+		if
+			Depth 1 <
+		then
+			1000
+		end
+		«
+			3 Over Duplicate 2
+			≤ Swap 2 mod or
+			→ n d r
+			«
+				while
+					r d x² n ≤ and
+				repeat
+					n d mod 'r' Store
+					d 2 + 'd' Store
+				end
+				r not not
+			»
+		»
+		1
+		→ MaxNumber CheckIfPrime
+		Count
+		«
+			3 MaxNumber
+			for i
+				if
+					i CheckIfPrime
+				then
+					'Count' Increment
+					Drop
+				end
+				2
+			step
+			Count
+		»
+	»
+	@ Compute execution duration of that code
+	TimedEval
+»
+'Prime' STO
+
+'F=2·Ⓒπ·Trq÷Pas'
+'Equation' STO
+
+'F=2·Ⓒπ·Trq÷Pas'
+'Vis' STO
+
+1.00530964914873383630800E4_N
+'F' STO
+
+5_mm
+'Pas' STO
+
+8_N·m
+'Trq' STO
+
+741
+'A3' STO
+
+'A3'
+'RA3' STO
+
+987
+'A2' STO
+
+555
+'A1' STO
+
+'Lines'
+25
+741
+'A3'
+741
+5_mm
+5_N·m
+F=6.28318530717958647692530E3_N
+1.20
+Trq=2.50_N·m
+F=3.14159265358979323846270E3_N
+{ 8 4 1 3 6 2 7 5 }
+:duration:190_ms
+{ 8 4 1 3 6 2 7 5 }
+:duration:180_ms
+78498
+1.20
+:duration:450_ms
+{ 8 4 1 3 6 2 7 5 }
+:duration:210_ms
+1.39534628774342325628983E3
+:duration:2310_ms
+1.39534628774342325628983E3
+:duration:2310_ms
+1
+25
+:duration:10_ms
+5133
+:duration:40460_ms
+14
+5/18
+1.20
+F=5_N
+Pas=12_mm
+Trq=25_N·m
+F=1.30899693899574718269280E4_N
+'F=2·Ⓒπ·Trq÷Pas'
+F=1.30899693899574718269280E4_N
+0
+1.20
+P=10_atm
+V=2.24016609401019937823833_l
+Pas=5_mm
+Trq=8_N·m
+F=1.00530964914873383630800E4_N
+25
+3098_mV
+1.57079632679489661923132E1
+{ Ⓒπ > Char→Code
+}
+{ Ⓒπ }
+{ Ⓒπ '→Num' }
+7.85398163397448309615660E1
+ShowSeconds
+CustomMenu
+ HomeDirectory

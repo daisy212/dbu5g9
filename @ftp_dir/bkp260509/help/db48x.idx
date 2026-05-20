@@ -1,0 +1,3986 @@
+616257:# Analytic functions
+541348:# Angle settings
+425948:# Arithmetic
+434353:# Base functions
+547437:# Base settings
+479927:# Bitmap operations
+437992:# Bitmaps
+434647:# Bitwise operations
+542857:# Command display
+548113:# Command tuning
+438019:# Comparisons
+556813:# Compatibility settings
+441950:# Constants
+217643:# Constants library
+514774:# Continued fractions
+450567:# Debugging
+539314:# Display Grouping and Spacing
+534090:# Display settings
+253106:# Equations library
+560664:# Evaluation settings
+463055:# Finance
+467463:# Flags
+460609:# Flow control
+468494:# Fonts
+469596:# Graphic commands
+198404:# Implementation status
+429226:# Integer arithmetic and polynomials
+46491:# Introduction to RPL
+486470:# Library Management
+441268:# Lists, Matrix and String commands
+436599:# Logical operations
+422710:# Menus
+562934:# Numeric solvers
+515796:# Numerical conversions
+513494:# Numerical integration
+517469:# Objects
+612472:# Operations on text
+424982:# Operations with Angles
+440290:# Operations with Complex Numbers
+496202:# Operations with Matrices and vectors
+528464:# Operations with Ranges
+582681:# Operations with Symbolic Expressions
+625078:# Operations with Units
+488847:# Operations with data
+0:# Overview
+217546:# Performance measurements
+561423:# Plot settings
+444946:# Precision control
+544610:# Precision settings
+51981:# Quickstart guide
+146758:# RPL Programming
+184700:# Release notes
+530435:# SD Card
+520585:# Scalable plots and graphics
+532043:# Settings
+632886:# Soft Menus Tree
+569886:# Stack manipulation
+562685:# States
+572002:# Statistics
+555179:# Statistics settings
+611502:# Tagged objects
+595512:# Time, Date, Alarms and System Commands
+616760:# Transcendental functions
+124166:# Types
+626641:# USB Communications
+619344:# User Interface
+549483:# User interface
+627015:# UserModeMenu
+453212:# Variables
+439337:## <
+438343:## =
+438873:## ==
+439808:## >
+600179:## ACK
+600223:## ACKALL
+618281:## ACOS
+618614:## ACOSH
+494203:## ADDROT
+430538:## ADDTMOD
+591532:## ALLROOTS
+618251:## ASIN
+618572:## ASINH
+591691:## ASSUME
+618313:## ATAN
+618346:## ATAN2
+618658:## ATANH
+503113:## AXL
+429016:## Abs
+38043:## Acknowledgements and credits
+425962:## Add
+114147:## Adding Local variables
+98453:## Advanced matrix operations
+591763:## AlgebraConfiguration
+592239:## AlgebraVariable
+48155:## Algebraic mode
+464177:## Amort
+465083:## AmortTable
+437032:## And
+61451:## Angle operations
+440404:## Arg
+53359:## Arithmetic operations
+435623:## ArithmeticShiftRight
+435739:## ArithmeticShiftRightByte
+435871:## ArithmeticShiftRightCount
+497043:## Array→
+629613:## AssignKey
+458420:## Assignment
+487599:## Attach
+553664:## AutoScaleStack
+588739:## AutoSimplify
+601387:## AvailableMemory
+574631:## Average
+503162:## BASIS
+527379:## BarPlot
+547770:## Base
+625177:## BaseUnits
+131317:## Based numbers
+540241:## BasedSpacing
+610831:## BatteryRefresh
+608990:## BatteryVoltage
+629133:## Behaviour of assigned object
+579298:## BestFit
+124839:## Big integers
+538375:## BigFractions
+547655:## Binary
+468420:## BinaryToFlags
+559916:## BitwiseLogicForIntegers
+471821:## BlankBitmap
+471586:## BlankGROB
+471230:## BlankGraphic
+472124:## BlankPixmap
+131809:## Boolean values
+603384:## Bytes
+618821:## CBRT
+503244:## CHOLESKY
+591606:## CLISTCLOSEBRACKET
+460277:## CLVAR
+497927:## COL+
+499004:## COL-
+618491:## COSH
+504773:## CSWP
+446286:## Calculating uncertainty
+544002:## Capitalized
+544392:## CapitalizedNames
+461208:## Case
+508756:## Catalog
+428884:## Ceil
+509609:## CharactersMenu
+615021:## Char→Code
+219057:## Chemistry constant
+600518:## Chuck
+537495:## ClassicExponent
+467936:## ClearFlag
+471146:## ClearLCD
+569908:## ClearStack
+574588:## ClearΣ (CLΣ)
+615313:## Code→Text
+474309:## Color
+503301:## ColumnNorm
+253337:## Columns and Beams
+499606:## Columns→
+84793:## Command line history
+116768:## Comparisons and tests
+538665:## CompatibleBasedNumbers
+557620:## CompatibleGROBs
+557412:## CompatibleTypes
+612663:## Compile
+612998:## CompileToAlgebraic
+614736:## CompileToExpression
+613238:## CompileToInteger
+612796:## CompileToNumber
+614223:## CompileToObject
+613731:## CompileToPositive
+613953:## CompileToReal
+63388:## Complex number operations
+132178:## Complex numbers
+93467:## Computations on complex numbers
+97008:## Computations on matrices
+95252:## Computations on vectors
+100368:## Computations with based numbers
+252352:## Computing constants
+504686:## Cond
+180269:## Conditional Structures & Commands
+440441:## Conj
+443445:## Constant
+503450:## ConstantArray
+444528:## ConstantName
+444733:## ConstantValue
+141497:## Constants
+510592:## ConstantsMenu
+633589:## Contents
+452537:## Continue
+625260:## Convert
+469738:## Coordinates
+457964:## Copy
+576582:## Correlation
+576994:## Covariance
+457461:## CreateDirectory
+157594:## Creating programs on a computer
+504737:## Cross
+555424:## CurrentFitSums
+551366:## CursorBlinkRate
+550796:## CustomHeaderRefresh
+511285:## CustomMenu
+517480:## Cycle
+12:## DB48X on DM42
+599128:## DDays
+600338:## DELALARM
+514797:## DFC
+515398:## DFC2F
+432190:## DIGITS
+611203:## DMCPDisplayRefresh
+609786:## DMCPLowBattery
+598259:## DMS→
+462405:## DO
+624210:## DOFORM
+505545:## DOT
+582529:## DataColumns
+598655:## Date
+595922:## Date format
+596520:## Date+
+595554:## DateMenu
+598890:## DateTime
+599928:## Datefromjuliandaynumber
+251767:## Dates Constants
+451051:## Debug
+450802:## DebugMenu
+559499:## DebugOnError
+547708:## Decimal
+125407:## Decimal numbers
+72086:## Decimal values
+541275:## DecimalComma
+541207:## DecimalDot
+456665:## Decrement
+541714:## Degrees
+631297:## DeleteKeys
+612329:## DeleteTag
+582397:## DependentColumn
+569959:## Depth
+587243:## Derivative
+2309:## Design overview
+488184:## Detach
+556932:## DetailedTypes
+505492:## Determinant
+15324:## Differences with other RPLs
+457659:## DirectoryPath
+534580:## DisplayModesMenu
+75436:## Displaying decimal values
+60749:## Displaying the on-line help for a function
+558771:## DistinguishSymbolCase
+427797:## Divide
+479461:## DrawLine
+478003:## DrawStyledText
+475965:## DrawText
+569998:## Drop
+570049:## Drop2
+570094:## DropN
+570164:## Duplicate
+570212:## Duplicate2
+570327:## DuplicateN
+570263:## DuplicateTwice
+425769:## D→R
+624889:## EDACTOKEN
+624524:## EDDOWN
+624627:## EDEND
+624266:## EDINSERT
+624383:## EDLEFT
+624752:## EDLEND
+624683:## EDLSTART
+624980:## EDMODE
+624314:## EDREMOVE
+624433:## EDRIGHT
+624567:## EDSTART
+624817:## EDTOKEN
+624485:## EDUP
+505597:## EGV
+505606:## EGVL
+462832:## ELSEERR
+462155:## ENDCASE
+462496:## ENDDO
+462899:## ENDERR
+462081:## ENDTHEN
+462646:## ENDWHILE
+618415:## EXP
+618743:## EXP10
+619362:## EditorCopy
+619419:## EditorCut
+619476:## EditorPaste
+619544:## EditorSearch
+554426:## EditorWrapColumn
+258592:## Electricity
+236836:## Electromagnetism constants
+535179:## EngineeringDisplay
+119155:## Enjoy the calculator!
+103778:## Entering a program
+90072:## Entering an algebraic expression
+152471:## Entering and running programs
+99283:## Entering data in lists
+85537:## Entering letters and symbols
+87300:## Entering names
+89140:## Entering text
+592810:## Equation
+146432:## Equations Library
+437710:## Equiv
+442611:## EulerianNumber
+594077:## EvalEq
+434371:## Evaluate
+437846:## Excludes
+554791:## ExitClearsMenu
+554636:## ExitKeepsMenu
+618907:## Exp2
+518748:## Explode
+618853:## Expm1
+579535:## ExponentialFit
+583965:## Expression rewrite
+590661:## ExpressionVariables
+134822:## Expressions
+441738:## Extract
+600377:## FINDALARM
+468684:## FNT1STK
+468798:## FNTCMDL
+468976:## FNTFORM
+469390:## FNTHELP
+469440:## FNTHLPT
+468743:## FNTMENU
+468583:## FNTPG
+468918:## FNTPLOT
+468550:## FNTRCL
+468861:## FNTSTAT
+468629:## FNTSTK
+468503:## FNTSTO
+462229:## FOR
+463011:## FORDN
+462965:## FORUP
+503049:## FROMDIAG
+612554:## FROMUTF
+625567:## FactorUnit
+429763:## Factorial
+432847:## Factors
+438278:## False
+537350:## FancyExponent
+491756:## Filter
+589756:## FinalAlgebraResults
+421662:## Finance
+463452:## FinanceRounding
+463166:## FinanceSolverMenu
+534882:## FixedDisplay
+468356:## FlagsToBinary
+454977:## Flash storage
+551164:## FlatMenus
+467979:## FlipFlag
+428836:## Floor
+277169:## Fluids
+281713:## Forces and Energy
+428973:## FracPart
+539929:## FractionSpacing
+125149:## Fractions
+601167:## FreeMemory
+579825:## FrequencyBins
+475275:## FromLCD
+441207:## FromVector
+523904:## FunctionPlot
+483826:## GAnd
+430430:## GCD
+441350:## GETI
+429482:## GETPREC
+625066:## GETTHEME
+483102:## GOr
+505652:## GRAMSCHMIDT
+482205:## GXor
+602030:## GarbageCollect
+602554:## GarbageCollectorStatistics
+287114:## Gases
+492412:## Get
+541917:## Grads
+562262:## GraphRenderingSizeLimit
+484561:## GraphicAppend
+485237:## GraphicExponent
+486339:## GraphicIntegral
+485912:## GraphicNorm
+485751:## GraphicParentheses
+486198:## GraphicProduct
+485432:## GraphicRatio
+552661:## GraphicResultDisplay
+485607:## GraphicRoot
+484798:## GraphicStack
+553164:## GraphicStackDisplay
+485038:## GraphicSubscript
+486064:## GraphicSum
+561488:## GraphingTimeLimit
+472878:## Gray
+505669:## HADAMARD
+460185:## HIDEVAR
+505727:## HILBERT
+597755:## HMS+
+597845:## HMS-
+597550:## HMS→
+473798:## HSV
+618929:## HYPOT
+452647:## Halt
+489984:## Head
+549759:## Header
+292124:## Heat transfer
+36256:## Help
+547737:## Hexadecimal
+551600:## HideBuiltinUnits
+555046:## HideEmptyMenu
+527900:## HistogramPlot
+457607:## HomeDirectory
+430903:## IABCUV
+505774:## IBASIS
+430863:## IEGCD
+462700:## IFERR
+571526:## IFT
+571579:## IFTE
+506932:## IMAGE
+430494:## IQUOT
+506993:## ISOM
+505840:## IdentityMatrix
+460625:## If
+558610:## IgnoreSymbolCase
+440362:## Im
+198745:## Implemented commands
+437563:## Implies
+538174:## ImproperFractions
+456613:## Increment
+582261:## IndependentColumn
+142230:## Infinite results
+442920:## Infinity
+620791:## Input
+120458:## Installation
+428934:## IntPart
+124256:## Integers
+513519:## Integrate
+579034:## Intercept
+434567:## Inv
+68993:## Invoking the on-line Help
+432273:## IsPrime
+586518:## Isolate
+507003:## JORDAN
+599397:## JulianDayNumber
+507015:## KER
+624105:## KEYEVAL
+624160:## Key
+628333:## Key positions
+627535:## KeyMap
+2969:## Keyboard interaction
+452796:## Kill
+559295:## KillOnError
+430463:## LCM
+508627:## LDUP
+618381:## LN
+460354:## LOCKVAR
+618703:## LOG10
+507076:## LQ
+507084:## LSQ
+507093:## LU
+570405:## LastArguments
+424844:## LastMenu
+570564:## LastX
+537631:## LeadingZero
+145925:## Library
+444151:## LibraryEquation
+444330:## LibraryItem
+488645:## Libs
+579442:## LinearFit
+555202:## LinearFitSums
+577736:## LinearRegression
+559144:## ListAsData
+558918:## ListAsProgram
+495387:## ListDifferences
+589992:## ListExpressionNames
+494935:## ListProduct
+560189:## ListRecursionDepth
+494330:## ListSum
+136049:## Lists
+489530:## List→
+618881:## Ln1p
+114896:## Localized number display preferences
+579636:## LogarithmicFit
+544088:## LongForm
+544508:## LongFormNames
+609432:## LowBattery
+543830:## LowerCase
+544160:## LowerCaseNames
+507130:## MAD
+429800:## MANT
+507139:## MKISOM
+508692:## MMAP
+429692:## MOD
+429593:## MODRCL
+429528:## MODSTO
+430663:## MULTMOD
+296936:## Magnetism
+241591:## Magnetism constants
+423060:## MainMenu
+539613:## MantissaSpacing
+490246:## Map
+227698:## Mass constants
+250321:## Materials constants
+423459:## MathMenu
+547303:## MathModesMenu
+55839:## Mathematical functions
+217873:## Mathematics constants
+432046:## Max
+546476:## MaxFactorIterations
+546021:## MaxFactorsBits
+545306:## MaxNumberBits
+548221:## MaxRewrites
+554323:## MaximumShowHeight
+554219:## MaximumShowWidth
+574995:## MaxΣ
+574826:## Median
+511749:## Menu
+108594:## Menus with too many entries
+432015:## Min
+610032:## MinimumBatteryVoltage
+535871:## MinimumSignificantDigits
+574910:## MinΣ
+538065:## MixedFractions
+56844:## Mixing algebraic and reverse-polish operations
+538454:## ModernBasedNumbers
+393203:## Modern Physics
+532473:## Modes
+533789:## ModesMenu
+117774:## More sophisticated programming
+306874:## Motion
+88441:## Multi-line text editor
+551762:## MultiLineResult
+552203:## MultiLineStack
+568866:## MultipleEquationsSolver
+452252:## MultipleSteps
+568948:## MultipleVariablesSolver
+427036:## Multiply
+437343:## NAnd
+570948:## NDUPN
+608363:## NEWOB
+462317:## NEXT
+437455:## NOr
+441546:## NPOS
+441673:## NPOSREV
+615792:## NTHTOKEN
+615838:## NTHTOKENPOS
+615750:## NTOKENS
+562953:## NUMINT
+434484:## Negate
+443173:## NegativeInfinity
+593700:## NextEq
+433571:## NextPr
+571001:## Nip
+542642:## NoAngleUnits
+589010:## NoAutoSimplify
+560988:## NoLastArguments
+537870:## NoLeadingZero
+558409:## NoNumberedVariables
+561242:## NoProgramLastArguments
+553994:## NoStackAutoScale
+537059:## NoTrailingDecimal
+503402:## Norm
+437249:## Not
+406864:## Nuclear Physics
+540690:## NumberDotOrComma
+540547:## NumberSpaces
+540951:## NumberTicks
+541078:## NumberUnderscore
+558197:## NumberedVariables
+112728:## Numerical integration
+589534:## NumericalResults
+441395:## OBJDECOMP
+460037:## ORDER
+547682:## Octal
+65670:## Operations on whole numbers
+315566:## Optics
+436923:## Or
+324229:## Oscillations
+571048:## Over
+143544:## Overflow and underflow
+460559:## PACKDIR
+431900:## PADD
+430798:## PCOEF
+431721:## PDER
+431658:## PDIV2
+608279:## PEEK
+430730:## PEVAL
+431036:## PHERMITE
+431157:## PHERMITE2
+431778:## PINT
+430997:## PLEGENDRE
+507151:## PMINI
+431837:## PMUL
+608319:## POKE
+441490:## POS
+441606:## POSREV
+429635:## POWMOD
+432236:## PROOT
+431956:## PSUB
+430952:## PTCHEBYCHEFF
+431092:## PTCHEBYCHEFF2
+441305:## PUTI
+557827:## PackedBitmaps
+524212:## ParametricPlot
+430212:## Percent
+430276:## PercentChange
+430358:## PercentTotal
+224261:## Physics constants
+541990:## PiRadians
+571099:## Pick
+571153:## Pick3
+479681:## Pict
+472483:## PixColor
+472357:## PixTest
+330841:## Plane Geometry
+521611:## PlotMax
+521021:## PlotMin
+523028:## PlotParameters
+110491:## Plotting a function
+111666:## Plotting data
+524070:## PolarPlot
+440670:## PolarToReal
+581854:## PopulationCovariance
+581557:## PopulationStandardDeviation
+581212:## PopulationVariance
+428281:## Pow
+579737:## PowerFit
+608427:## PowerOff
+544632:## Precision
+450125:## PrecisionRound
+433944:## PrevPr
+561086:## ProgramLastArguments
+135658:## Programs
+620141:## Prompt
+456720:## Purge
+457157:## PurgeAll
+457503:## PurgeDirectory
+492857:## Put
+507193:## QR
+460078:## QUOTEID
+231538:## Quantum constants
+493644:## QuickSort
+431220:## QuotientRemainder
+572341:## RAND
+591629:## RANGE
+507230:## RANK
+507344:## RCI
+507382:## RCIJ
+456206:## RCL+
+456270:## RCL-
+600268:## RCLALARM
+456340:## RCL×
+456544:## RCL÷
+507442:## RDM
+572016:## RDZ
+507481:## REF
+460431:## RENAME
+462594:## REPEAT
+441448:## REPL
+473290:## RGB
+441841:## RHEAD
+432076:## RND
+500683:## ROW+
+501733:## ROW-
+460516:## RPROP
+507544:## RREF
+507595:## RREFMOD
+507608:## RSD
+507653:## RSWP
+441896:## RTAIL
+615932:## RTRIM
+591151:## RULEAPPLY1
+541793:## Radians
+572654:## Random
+555690:## RandomGeneratorBits
+556417:## RandomGeneratorOrder
+507257:## RandomMatrix
+530331:## RangeIntersect
+530236:## RangeUnion
+132903:## Ranges
+593415:## RcEq
+440325:## Re
+440751:## RealToPolar
+440577:## RealToRectangular
+454138:## Recall
+630615:## RecallKeys
+513347:## RecallMenu
+548041:## RecallWordSize
+574421:## RecallΣ (RCLΣ)
+440480:## RectangularToReal
+491081:## Reduce
+449358:## RelativeRound
+443874:## RelativeUncertainty
+363771:## Relativity
+195755:## Release 0.9.10  "Best" - Ranges and documentation
+194148:## Release 0.9.11 "Prayer" - Uncertain number
+192631:## Release 0.9.12 "Alive" - Return to active duty
+191061:## Release 0.9.13 "Saints" - Truth plot, colors, and bug fixes
+190602:## Release 0.9.14 "Latran" - Android preparation
+189169:## Release 0.9.15 "Myriam" - GitHub automation, portability
+187475:## Release 0.9.16 - Factorization, precision fixes, and documentation
+185647:## Release 0.9.17 - Rational approximation, indexing, Android fixes
+184717:## Release 0.9.18 "Chuck" - Sucess begins inside
+198027:## Release 0.9.9 "Headrest" - Ranges
+533145:## ResetModes
+561754:## ResultGraphingTimeLimit
+494145:## ReverseList
+494016:## ReverseQuickSort
+493931:## ReverseSort
+49436:## Rich data types
+571205:## Roll
+571249:## RollD
+563006:## Root
+571296:## Rot
+436021:## RotateLeft
+436102:## RotateLeftByte
+436195:## RotateLeftCount
+436308:## RotateRight
+436390:## RotateRightByte
+436486:## RotateRightCount
+551243:## RoundedMenus
+503352:## RowNorm
+502317:## Rows→
+452891:## Run
+602941:## RuntimeStatistics
+425588:## R→D
+508378:## SCHUR
+531885:## SDARCHIVE
+530605:## SDCHDIR
+530958:## SDCLOSE
+531762:## SDCOPY
+530683:## SDCRDIR
+531431:## SDEOF
+531388:## SDFILESIZE
+531832:## SDFREE
+531996:## SDGETPART
+531728:## SDMOVE
+531605:## SDNEXTDIR
+531677:## SDNEXTENTRY
+531540:## SDNEXTFILE
+530874:## SDOPENAPP
+531492:## SDOPENDIR
+530916:## SDOPENMOD
+530786:## SDOPENRD
+530836:## SDOPENWR
+531786:## SDPATH
+530719:## SDPGDIR
+530759:## SDPURGE
+530565:## SDRCL
+531106:## SDREADLINE
+530990:## SDREADTEXT
+530446:## SDRESET
+531942:## SDRESTORE
+531282:## SDSEEKCUR
+531220:## SDSEEKEND
+531156:## SDSEEKSTA
+530488:## SDSETPART
+530524:## SDSTO
+531351:## SDTELL
+530643:## SDUPDIR
+531051:## SDWRITETEXT
+494269:## SEQ
+467709:## SETLOCALE
+467753:## SETNFMT
+429436:## SETPREC
+625029:## SETTHEME
+618453:## SINH
+441797:## SIZE
+508389:## SNRM
+460474:## SPROP
+429735:## SQ
+618788:## SQRT
+508399:## SRAD
+616123:## SREPL
+615705:## SREV
+615980:## SSTRLEN
+462271:## START
+462361:## STEP
+571862:## STKDEPTH
+571754:## STKDROP
+571908:## STKNEW
+571803:## STKPICK
+571701:## STKPOP
+571633:## STKPUSH
+455982:## STO+
+456033:## STO-
+600305:## STOALARM
+469077:## STOFNT1STK
+469181:## STOFNTCMDL
+469344:## STOFNTFORM
+469496:## STOFNTHELP
+469546:## STOFNTHLPT
+469131:## STOFNTMENU
+469291:## STOFNTPLOT
+469239:## STOFNTSTAT
+469027:## STOFNTSTK
+456092:## STO×
+456150:## STO÷
+616024:## STRLENCP
+430599:## SUBTMOD
+508409:## SVD
+508418:## SVL
+508427:## SYLVESTER
+439200:## Same
+560762:## SaveLastArguments
+608531:## SaveState
+109325:## Saving your state to disk
+527037:## ScatterPlot
+248049:## Scattering constants
+77332:## Scientific functions
+534964:## ScientificDisplay
+608715:## ScreenCapture
+59363:## Selecting display modes
+539508:## SeparatorModesMenu
+542106:## SetAngleUnits
+596230:## SetDate
+467804:## SetFlag
+597194:## SetTime
+435091:## ShiftLeft
+435162:## ShiftLeftByte
+435249:## ShiftLeftCount
+435354:## ShiftRight
+435427:## ShiftRightByte
+435516:## ShiftRightCount
+478911:## Show
+538813:## ShowAsDecimal
+551504:## ShowBuiltinUnits
+554896:## ShowEmptyMenu
+539138:## ShowIntegersAndFractions
+561615:## ShowTimeLimit
+429961:## SigDig
+430061:## Sign
+535317:## SignificantDisplay
+551984:## SingleLineResult
+552434:## SingleLineStack
+551079:## SingleRowMenus
+451717:## SingleStep
+240457:## Size constants
+579170:## Slope
+538288:## SmallFractions
+73960:## Soft keys and menus
+13319:## Soft menus
+611369:## SoftwareDisplayRefresh
+338042:## Solid State Devices
+335360:## Solid geometry
+545065:## SolverImprecision
+547117:## SolverImprecision
+547039:## SolverIterations
+547193:## SolverShuffles
+568558:## Solving Menu Recall Key
+568439:## Solving Menu Solve Key
+568704:## Solving Menu Store Key
+493410:## Sort
+551310:## SquareMenus
+593033:## StEq
+561914:## StackGraphingTimeLimit
+577399:## StandardDeviation
+534734:## StandardDisplay
+535678:## StandardExponent
+631955:## StandardKey
+448893:## StandardRound
+443593:## StandardUncertainty
+1165:## State of the project
+562548:## StatsPlotBins
+589893:## StepByStepAlgebraResults
+452180:## StepOut
+451814:## StepOver
+453270:## Store
+592521:## StoreAlgebraVariable
+630177:## StoreKeys
+574491:## StoreΣ (STOΣ)
+106535:## Storing and modifying programs
+105092:## Storing values in global variables
+347473:## Stress Analysis
+426720:## Subtract
+571341:## Swap
+123295:## Switching between DM42 and DB48X
+113548:## Symbolic expression manipulation
+589298:## SymbolicResults
+135200:## Symbols
+608479:## SystemSetup
+618531:## TANH
+598606:## TEVAL
+462006:## THENCASE
+462765:## THENERR
+512985:## TMenu
+502997:## TODIAG
+616168:## TODISPSTR
+616215:## TOEDITSTR
+616078:## TONFC
+438003:## TOSYSBITMAP
+612495:## TOUTF
+508442:## TRACE
+508498:## TRAN
+591217:## TRIGSIN
+615887:## TRIM
+508561:## TRN
+432131:## TRNC
+466157:## TVMPayAtBeginningOfPeriod
+466815:## TVMPayAtEndOfPeriod
+463805:## TVMRoot
+554581:## TabWidth
+553:## Table of contents
+612098:## Tag→
+490107:## Tail
+468061:## TestFlagClear
+468104:## TestFlagClearThenClear
+468234:## TestFlagClearThenSet
+468022:## TestFlagSet
+468171:## TestFlagSetThenClear
+468297:## TestFlagSetThenSet
+179143:## Testing Object Types
+170998:## Tests and Conditional Structures
+135419:## Text
+562060:## TextRenderingSizeLimit
+552995:## TextResultDisplay
+553494:## TextStackDisplay
+615161:## Text→Code
+47485:## The RPL stack
+92417:## The Tools menu
+70678:## The annunciator area
+81603:## The command line
+83277:## The editor menu
+111938:## The numerical solver
+107388:## The variables menu
+550946:## ThreeRowsMenus
+598558:## Ticks
+599269:## Time
+596127:## Time format
+595733:## TimeMenu
+441101:## To2DVector
+441153:## To3DVector
+481186:## ToBitmap
+440988:## ToCylindrical
+479948:## ToGrob
+480681:## ToHPGrob
+475590:## ToLCD
+481711:## ToPixmap
+440915:## ToPolar
+440829:## ToRectangular
+441046:## ToSpherical
+612605:## ToText
+510986:## ToggleCustomMenu
+632225:## ToggleUserMode
+424740:## ToolsMenu
+536843:## TrailingDecimal
+57929:## Trigonometric functions
+438216:## True
+559653:## TruthLogicForIntegers
+524572:## TruthPlot
+603840:## Type
+606654:## TypeName
+457796:## TypedVariables
+460231:## UNHIDEVAR
+460391:## UNLOCKVAR
+460128:## UNQUOTEID
+462449:## UNTIL
+626909:## USBARCHIVE
+626860:## USBAUTORCV
+608410:## USBFWUPDATE
+626804:## USBOFF
+626833:## USBON
+609065:## USBPowered
+626707:## USBRECV
+626961:## USBRESTORE
+626755:## USBSEND
+626663:## USBSTATUS
+571479:## UnRot
+216664:## Unapplicable commands
+134081:## Uncertain numbers
+145495:## Undefined
+147147:## Understanding programming
+570753:## Undo
+212738:## Unimplemented commands
+64589:## Unit conversions
+102731:## Unit objects
+625103:## UnitValue
+137168:## Units
+626050:## UnitsSIPrefixCycle
+571430:## Unpick
+457551:## UpDirectory
+543916:## UpperCase
+544276:## UpperCaseNames
+115562:## User interface preferences
+632081:## UserMode
+632521:## UserModeLock
+632153:## UserModeOff
+632708:## UserModeOnce
+54995:## Using Fractions
+79115:## Using an infinite stack
+159156:## Using local variables
+67726:## Using the shift key
+508610:## VANDERMONDE
+457714:## Variables
+423909:## VariablesMenu
+424288:## VariablesMenuExecute
+424416:## VariablesMenuRecall
+424575:## VariablesMenuStore
+576444:## Variance
+136268:## Vectors and matrices
+600433:## Version
+156312:## Viewing and editing programs
+167701:## Volume of a cylinder
+154866:## Volume of a sphere
+155645:## Volume of a spherical cap
+462543:## WHILE
+619602:## Wait
+351308:## Waves
+594570:## Where
+547822:## WordSize
+429882:## XPON
+522195:## XRange
+562421:## XYPlotBins
+437133:## Xor
+522612:## YRange
+617301:## cos
+442326:## pi
+616788:## sin
+617715:## tan
+428727:## xroot
+574100:## Σ+
+574330:## Σ-
+573273:## ΣData
+573501:## ΣParameters
+575079:## ΣSize
+576361:## ΣTotal
+575161:## ΣX
+575613:## ΣXY
+575867:## ΣX²
+575387:## ΣY
+576114:## ΣY²
+582721:## ↑Match
+529452:## →%Range
+496242:## →Array
+497566:## →Columns
+597938:## →DMS
+425008:## →Degrees
+425292:## →Grads
+597325:## →HMS
+517270:## →Integer
+489248:## →List
+515821:## →Num
+425429:## →PiRadians
+520096:## →Program
+515936:## →Q
+548763:## →QDigits
+548521:## →QIterations
+516224:## →Qπ
+548940:## →QπMaxPrime
+425150:## →Radians
+528668:## →Range
+500347:## →Rows
+611870:## →Tag
+625691:## →Unit
+448616:## →Ur
+448338:## →Us
+529877:## →σRange
+529047:## →∆Range
+583350:## ↓Match
+438732:## ≠
+439560:## ≤
+440037:## ≥
+285918:### 1D Elastic Collisions
+86675:### 2nd shifted characters
+115896:### 3-level, 1-level and flat menu styles
+218704:### ? constant
+170740:### ACyl: Local algebraics
+168307:### ACyl: RPN style
+169495:### ACyl: Using algebraic expressions
+168639:### ACyl: Using global variables
+169906:### ACyl: Using local variables
+102551:### Adding a suffix to force a base (DM32 only)
+97350:### Adding and subtracting matrices
+95763:### Adding and subtracting vectors
+99625:### Adding elements to a list
+108752:### Adding more variables overflows
+161337:### Advantages of Local Variables
+635880:### AlarmMenu
+636238:### AlgebraMenu
+565785:### Algebraic form
+565208:### Algebraic isolation
+24535:### Alignment with SwissMicros calculators
+5395:### Alpha mode
+85915:### Alpha mode with Long Shift
+85706:### Alpha mode with Shift Enter
+80069:### An example of complicated calculation - The Mach number benchmark
+636696:### AnglesMenu
+284302:### Angular Mechanics
+99795:### Applying a function to a list
+103258:### Applying a unit
+231161:### Are constant
+94379:### Arithmetic on complex numbers
+72773:### Arithmetic on decimal values
+73013:### Arithmetic on fractions
+66252:### Arithmetic on integers
+637200:### ArithmeticMenu
+459280:### Assignments with the solver
+38237:### Authors
+87889:### Auto-completion
+91525:### Automatic elimination of parentheses
+92175:### Automatic simplification of `0+x`, `1*x`, etc.
+637498:### BasesMenu
+251787:### BastilleDay constant
+70840:### Battery level
+278852:### Bernoulli Equation
+129068:### Binary floating-point
+101994:### Binary operations
+296070:### Black Body Radiation
+185135:### Bug fixes
+186116:### Bug fixes
+188161:### Bug fixes
+189777:### Bug fixes
+190790:### Bug fixes
+191644:### Bug fixes
+193060:### Bug fixes
+195060:### Bug fixes
+196187:### Bug fixes
+67483:### Built-in functions: example of 1/x
+87045:### C and L cursor indicators in text
+638743:### CalculationMenu
+149780:### Calculations in a program
+257311:### Cantilever Deflection
+257997:### Cantilever Moment
+258320:### Cantilever Shear
+257665:### Cantilever Slope
+270519:### Capacitive Energy
+272160:### Capacitor Charge
+105655:### Case insensitivity
+87694:### Catalog with + key
+285191:### Centripetal Force
+116458:### Changing editor font size
+111508:### Changing line pattern
+111359:### Changing line width
+116613:### Changing multi-line editor font size
+116132:### Changing result font size
+116292:### Changing stack font size
+115380:### Changing the character used for spacing
+115035:### Changing the decimal separator
+66478:### Changing the sign of a number with +/-
+115191:### Changing the spacing for numbers
+101456:### Changing to an arbitrary base
+101253:### Changing to common bases (2, 8, 10, 16)
+671237:### CharactersMenu Reference
+639076:### CircularMenu
+639443:### ClearThingsMenu
+113710:### Collecting terms
+83061:### Command line: entering three numbers at once
+158007:### Comments
+639687:### CompareMenu
+91065:### Comparing the `sin` key in direct and algebraic mode
+113359:### Comparing with LN(2) - LN(2)
+172239:### Comparison Functions
+166518:### Compiled Local Variables
+640124:### ComplexMenu
+96307:### Component-wise functions: 1/x
+95924:### Component-wise multiplication and division
+103909:### Computing a VAT
+98073:### Computing a determinant
+98268:### Computing an inverse with 1/x
+66911:### Computing on large numbers: 2^40, 25!
+96673:### Computing the norm of a vector
+118077:### Conditional expression with IFTE
+294622:### Conduction
+295246:### Conduction & Convection
+121286:### Connecting the calculator to a computer
+671373:### ConstantsMenu Reference
+70418:### Contextual help
+294933:### Convection
+103427:### Converting to a unit
+122132:### Copying DB48X installation files
+122542:### Copying DM42 installation files
+80562:### Correcting an error in the middle
+263454:### Coulomb’s Law & E Field
+118242:### Counted loop with START NEXT
+160071:### Creating Local Variables
+106670:### Creating a new `VAT` command
+71580:### Current state file name
+268660:### Current Divider
+90890:### Cursor in algebraic mode
+84235:### Cut, copy and paste
+140759:### Cycle command customization
+73229:### Cycling between decimal and fraction with _×10ⁿ_
+274189:### Cylindrical Capacitor
+179357:### DB48x detailed types
+605592:### DB48x detailed types
+271719:### DC Capacitor Current
+272379:### DC Inductor Voltage
+78369:### DM42 layout difference: EXP LN instead of LOG LN
+223907:### Da constant
+640644:### DateMenu Reference
+641148:### DebugMenu Reference
+164579:### Defining the Scope of Local Variables
+82696:### Deleting characters left and right
+117199:### Differences between = and ==
+567465:### Differences with HP calculators
+641623:### DifferentialSolverMenu
+76330:### Digits to show for small values
+641929:### DisplayModesMenu Reference
+103604:### Dividing by a unit
+120646:### Downloading the software
+286282:### Drag Force
+111172:### Drawing two functions on the same screen
+275631:### Drift Speed & Current Density
+80993:### Dropping results and cleaning up with Drop
+76746:### ENG display mode
+255500:### Eccentric Columns
+156443:### Edit from level 1
+156734:### Edit from the stack
+157140:### Edit from variables
+642762:### EditMenu
+81821:### Editing an object on the stack with Right key
+95039:### Effect of angle mode on display in polar form
+74685:### Effect of shift state on the menu
+151196:### Efficiency vs. readability
+236411:### Eh constant
+255028:### Elastic Buckling
+276120:### Electron & Hole Mobilities
+77135:### Emulating HP48 standard display
+102177:### Emulating a 16-bit or 256-bit CPU
+186973:### Enhancements
+188664:### Enhancements
+190401:### Enhancements
+72240:### Entering a decimal number
+99461:### Entering a list
+97158:### Entering a matrix
+72492:### Entering a number in scientific notation with _×10ⁿ_
+153198:### Entering a program
+102891:### Entering a value with a unit
+95419:### Entering a vector
+90452:### Entering an expression
+100545:### Entering based numbers
+100696:### Entering hexadecimal directly with A-F
+101611:### Entering number in arbitrary base
+93967:### Entering numbers in polar form
+93786:### Entering numbers in rectangular form
+91336:### Entering parentheses
+89280:### Entering text with 2nd shift ENTER
+66004:### Entering whole numbers
+235198:### Epl constant
+174349:### Equality comparisons
+117067:### Equality tests
+112418:### Equations A=B
+671506:### EquationsMenu
+163738:### Evaluating Local Names
+106858:### Evaluating a program by name
+107025:### Evaluating a program from variables menu
+104107:### Evaluating a program with `Evaluate`
+105495:### Evaluating a variable
+107713:### Evaluating a variable with F1
+90686:### Evaluating an expression with `=`
+18380:### Evaluation
+94573:### Exact angles and exact computations: 2<45 * 3<90 ^ 8
+66702:### Exact division
+88055:### Example: VERSION
+87478:### Executing a command by typing its name
+85352:### Exiting the command line
+70178:### Exiting the on-line help
+643068:### ExpLogIdentitiesMenu
+113835:### Expanding terms
+77943:### Exponential and Log
+78146:### Exponential and log in base 10
+121890:### Exposing internal storage as a USB disk
+106345:### Expressions containing variables
+112231:### Expressions that must be zero
+265794:### E Field Finite Line
+265064:### E Field Infinite Line
+267302:### E Field Infinite Plate
+221888:### F constant
+75848:### FIX display mode
+643343:### FilesMenu
+567095:### Finding complex solutions
+68124:### First shifted function: y^x and square
+643665:### FlagsMenu
+280567:### Flow In Full Pipes
+279685:### Flow with Losses
+69717:### Following links
+644241:### FractionsMenu
+78875:### Functions in menus: example of hyperbolic functions
+94830:### Functions on complex numbers, e.g. `sin` and `log`.
+71800:### Future direction
+225357:### G constant
+244021:### G0 constant
+244399:### G0F constant
+113960:### General expression rewriting facility
+108938:### Going from 6 to 7 entries
+644719:### GraphicsMenu
+286492:### Gravitation Law
+563537:### Guess range
+41990:### HP Museum
+179579:### HP-compatible types
+604061:### HP-compatible types
+42239:### HPCalc
+130424:### HardwareFloatingPoint
+293983:### Heat Capacity
+252949:### HelloWorld constant
+39622:### Hewlett and Packard
+285590:### Hooke’s Law
+80329:### How to proceed with that computation
+646354:### HyperbolicMenu
+647052:### IOMenu
+288767:### Ideal Gas
+289037:### Ideal Gas Law Change
+185273:### Improvements
+191012:### Improvements
+192160:### Improvements
+193606:### Improvements
+195406:### Improvements
+196842:### Improvements
+84425:### Incremental search
+252052:### IndependenceDay constant
+271031:### Inductive Energy
+82492:### Inserting characters in the middle
+114508:### Inserting local variables in a program
+114734:### Inserting local variables in equations
+122690:### Installing the DB48X QSPI file
+123014:### Installing the DB48X program file
+112852:### Integrating x^2 from 0 to 1 (exact results)
+113192:### Integration 1/x from 2 to 22
+513879:### IntegrationImprecision
+514470:### IntegrationIterations
+646760:### IntegrationMenu
+99011:### Inverse and determinant of 2x2 symbolic matrix
+290145:### Isentropic Flow
+289276:### Isothermal Expansion
+251328:### I₀ constant
+564709:### Jacobian solver
+247332:### KJ constant
+247606:### Kc constant
+7200:### Key mapping
+291652:### Kinetic Theory
+81205:### LastArg to recall last arguments
+671567:### Library Reference
+647394:### LinearSolverMenu
+283718:### Linear Mechanics
+26054:### List operation differences
+647655:### ListMenu
+100173:### Lists containing lists
+73724:### Live separators during number editing
+149206:### Local variables
+178510:### Logical Functions on Integers
+100898:### Logical operations
+117577:### Logical operations (AND, OR, NOT)
+69218:### Long-press on a function key
+648520:### LoopsMenu
+233885:### Lpl constant
+222739:### MC12 constant
+648972:### MainMenu Reference
+251834:### MartinLutherKingDeath constant
+649653:### MathMenu Reference
+650388:### MathModesMenu Reference
+32713:### Mathematics
+98614:### Matrix of complex numbers
+651015:### MatrixMenu
+162093:### Memory Usage Comparison
+652057:### MemoryMenu
+15210:### Menu Tree
+75190:### Menu history (Last Menu)
+109971:### Merging states
+89691:### Mixed operations, e.g. adding text
+653204:### ModesMenu Reference
+104299:### Modifying a program with LastArg
+104483:### Modifying a program with Undo
+104665:### Modifying a program with command-line history
+82054:### Moving left and right on the command line
+83875:### Moving to beginning and end
+69476:### Moving up and down
+83676:### Moving word by word
+234744:### Mpl constant
+222154:### Mu constant
+88583:### Multi-line Text editor
+653870:### MultiSolverMenu
+564202:### Multiple equation solver
+563769:### Multiple variables
+97528:### Multiplication and division by a constant
+97880:### Multiplying a matrix and a vector
+97693:### Multiplying square matrices
+89894:### Multiplying text by a number
+219080:### NA constant
+118539:### Named loop with FOR NEXT
+118699:### Named loop with FOR STEP
+105788:### Naming a variable on the command line
+153624:### Naming programs
+69969:### Navigating back to a previous topic
+184893:### New features
+185792:### New features
+187673:### New features
+189284:### New features
+190717:### New features
+191193:### New features
+192896:### New features
+194413:### New features
+195887:### New features
+198226:### New features
+252376:### No constant
+109096:### No next key, using F6 and shift F6 for next and previous
+20121:### Numbers
+654122:### NumbersMenu
+654529:### NumericalSolverMenu
+654750:### ObjectMenu
+268257:### Ohm’s Law & Power
+96124:### Operations between vector and a constant
+85145:### Optimization of command-line space
+106176:### Overwriting a variable value
+252766:### PageSize constant
+655253:### PartsMenu
+91952:### Performing RPN operations on algebraic expressions
+273741:### Plate Capacitor
+656124:### PlotMenu
+110987:### Plotting a parametric function
+110831:### Plotting a polar function
+110611:### Plotting a wave function sin(x * a) * cos(x * b)
+657397:### PolynomialSolverMenu
+657003:### PolynomialsMenu
+289580:### Polytropic Processes
+657662:### PowersMenu
+278447:### Pressure At Depth
+67913:### Primary function: 1/x
+658144:### PrintingMenu
+658326:### ProbabilitiesMenu
+148659:### Program Structures
+659048:### ProgramMenu
+459858:### PushEvaluatedAssignment
+459945:### PushOriginalAssignment
+219718:### R constant
+272887:### RC Transient
+271217:### RLC Current Delay
+273138:### RL Transient
+659742:### RangeMenu
+108233:### Rationale for the difference with HP48
+660100:### RealMenu
+290716:### Real Gas Law
+291164:### Real Gas State Change
+84944:### Recalling a previous command line
+107877:### Recalling a variable with shift F1
+117398:### Relational operators
+286888:### Relativity Mass Energy
+88946:### Repeat up and down by holding key
+99995:### Repeating a list (multiply)
+82270:### Repeating keys: Insert, left, right, delete
+22468:### Representation of objects
+269048:### Resistivity & Conductivity
+273396:### Resonant Frequency
+109788:### Restoring another state
+79598:### Result vs. other levels
+110168:### Returning to the calculator
+243668:### Rk constant
+446448:### Rule 1
+446516:### Rule 2
+446623:### Rule 3
+446751:### Rule 4
+447131:### Rule 5
+153910:### Running programs
+243118:### R∞ constant
+76545:### SCI display mode
+76947:### SIG display mode
+123804:### Saving and restoring DB48X state
+80779:### Saving results for later with Duplicate
+110340:### Saving state quickly with xshift-EXIT
+109598:### Saving the calculator state
+84618:### Search and replace
+68388:### Second shifted function: Help
+84067:### Selecting text
+83481:### Selecting the editor menu
+660651:### SeparatorModesMenu Reference
+73512:### Separators for the fractional part
+67236:### Separators to make large numbers more readable
+269891:### Series & Parallel C
+270198:### Series & Parallel L
+269593:### Series & Parallel R
+101077:### Setting the word size
+86308:### Shift on digits and operations while in Alpha mode
+86512:### Shifted characters
+79339:### Showing multiple stack levels
+71335:### Showing or hiding the date and time
+107552:### Showing the variables menu
+661334:### SignalProcessingMenu
+256007:### Simple Deflection
+256696:### Simple Moment
+257025:### Simple Shear
+256359:### Simple Slope
+252556:### SinclairZX81RAM constant
+275363:### Sinusoidal Current
+275087:### Sinusoidal Voltage
+223515:### SoR constant
+74170:### Soft keys
+131057:### SoftwareFloatingPoint
+274537:### Solenoid Inductance
+566098:### Solver (im)precision
+661563:### SolverMenu
+112070:### Solving an equation
+112561:### Solving for different variables
+82891:### Space key on R/S
+162854:### Spherical cap using local variables
+77530:### Square and power
+115714:### Square and rounded menu styles
+77727:### Square root and xroot
+662549:### StackMenu
+75624:### Standard display mode
+663340:### StatisticsMenu
+221253:### StdP constant
+220642:### StdT constant
+118381:### Stepping loop with START STEP
+154591:### Stopping a program
+105265:### Storing a value in a new variable 'VATRate'
+108058:### Storing in an existing variable with xshift F1
+74960:### Submenus
+44410:### SwissMicros DMCP
+94153:### Switching between polar and rectangular with Cycle key
+76077:### Switching to scientific mode
+91715:### Symbolic algebraic expressions
+98823:### Symbolic matrix
+664477:### SymbolicMenu
+665312:### SymbolicSolverMenu
+121415:### System menu
+422301:### TVMBeg
+422505:### TVMEnd
+107200:### Taking input and computing output
+171317:### Testing conditions
+117917:### Testing with IF THEN ELSE END
+665593:### TestsMenu
+666100:### TextMenu
+89466:### The C and L cursors
+147548:### The Contents of a Program
+102357:### The Cycle key on based numbers
+74435:### The DISP menu
+181750:### The IFT Command
+183561:### The IFTE Function
+182260:### The IF…THEN…ELSE…END Structure
+180754:### The IF…THEN…END Structure
+95584:### The M cursor
+96843:### The Matrix menu
+40263:### The Maubert Team
+90268:### The `' ()` key
+93631:### The complex menu
+68649:### The shift annunciator
+109482:### The system menu
+104853:### The three roles of the R/S key: Space, =, EVAL
+101808:### The tools menu on based number
+96478:### The tools menu on vectors
+103079:### The units menus
+294270:### Thermal Expansion
+666625:### TimeMenu Reference
+92778:### Tools menu for a decimal value
+93117:### Tools menu for a text
+93295:### Tools menu for an expression
+92966:### Tools menu for an integer
+92580:### Tools menu on empty stack
+274817:### Toroid Inductance
+234321:### Tpl constant
+86101:### Transient Alpha mode, upper and lowercase
+667223:### TrigIdentitiesMenu
+78611:### Trigonometric functions and their inverse
+116904:### Truth: True, False, 0, 1
+525674:### Truth plot with a complex value
+526448:### Truth plot with a list
+526740:### Truth plot with a name
+525488:### Truth plot with a real value
+525286:### Truth plot with a truth value
+526120:### Truth plot with a vector
+179959:### Type names
+235932:### T°pl constant
+119011:### UNTIL conditional loop
+71072:### USB vs. battery power
+447341:### Uncertainty-related commands
+81400:### Undo to restore previous stack state
+35188:### Unicode support
+565458:### Unit management
+138466:### Units file
+667528:### UnitsConversionsMenu
+671682:### UnitsMenu
+252467:### UnixEpoch constant
+88767:### Up and down by shifting
+566767:### Updating global variables
+15840:### User interface
+166193:### User-defined functions
+668319:### UserInterfaceModesMenu
+670244:### UserModeMenu Reference
+176565:### Using Logical Functions
+105980:### Using quotes to avoid evaluation
+108421:### Using variables menu while editing a program
+126660:### Variable-precision decimal
+670732:### VectorMenu
+29138:### Vectors and matrices differences
+219560:### Vm constant
+268478:### Volt Divider
+270741:### Volumic Density Electric Energy
+118841:### WHILE conditional loop
+43448:### WP43 and C47 projects
+152916:### What defines a RPL program?
+88204:### What happens if the name is not a command
+113026:### What happens with 0.0 to 1.0
+79850:### When a result is too large
+86844:### White cursor for Alpha mode
+114299:### Why use local variables
+268848:### Wire Resistance
+252421:### Yes constant
+226165:### Z₀ constant
+240865:### a0 constant
+218979:### angl constant
+224371:### c constant
+244877:### c1 constant
+245050:### c2 constant
+245224:### c3 constant
+246254:### c3f constant
+218030:### e constant
+238074:### f0 constant
+226010:### g constant
+238196:### ge constant
+231560:### h constant
+219269:### k constant
+227535:### ke constant
+224090:### kq constant
+229308:### mD constant
+228505:### mH constant
+230000:### mHe constant
+229696:### mT constant
+227717:### me constant
+228264:### mn constant
+228369:### mp constant
+230853:### mpme constant
+230270:### mμ constant
+230566:### mτ constant
+223217:### n0 constant
+42789:### newRPL project
+236867:### qe constant
+238599:### qme constant
+250518:### qε₀ constant
+218827:### rad constant
+240476:### re constant
+240599:### rp constant
+218895:### twoπ constant
+228776:### u constant
+247059:### ø constant
+232870:### ΔfCs constant
+232054:### α constant
+242244:### γe constant
+242835:### γn constant
+242544:### γp constant
+251014:### εox constant
+250694:### εsi constant
+226456:### ε₀ constant
+250345:### ε₀q constant
+233378:### θw constant
+237584:### λ0 constant
+248074:### λc constant
+248966:### λcn constant
+248518:### λcp constant
+249417:### λcμ constant
+249870:### λcτ constant
+241615:### μB constant
+241894:### μN constant
+238730:### μe constant
+239559:### μn constant
+239186:### μp constant
+240085:### μμ constant
+227080:### μ₀ constant
+217899:### π constant
+220058:### σ constant
+241124:### σe constant
+231932:### ℏ constant
+218148:### ⅈ constant
+218422:### ⅉ constant
+224283:### ⅉ constant
+218545:### ∞ constant
+323035:#### 2 Slits Young Interference
+374303:#### Acceleration Superposition
+311213:#### Angular Motion
+362575:#### Beat Acoustics
+344997:#### Bipolar Transistors
+405082:#### Bohr Atomic Model
+319895:#### Brewster’s Law
+313251:#### Buoyancy & Terminal Velocity
+302690:#### B Field In Finite Solenoid
+301753:#### B Field In Infinite Solenoid
+303935:#### B Field In Toroid
+390336:#### B H Schwarzschild Geometry
+391141:#### B H Thermodynamics
+331908:#### Circle
+334088:#### Circular Ring
+381672:#### Circumnavigating Airplanes
+384826:#### Clocks at different heights
+402634:#### Compton Scattering
+336062:#### Cone
+326558:#### Conical Pendulum
+319006:#### Critical Angle
+305360:#### Cyclotron Motion
+336599:#### Cylinder
+403992:#### De Broglie Wave
+358223:#### Doppler Effect
+329012:#### Driven Damped Oscillations
+363263:#### Electromagnetic Waves
+332427:#### Ellipse
+377645:#### Energy & Momentum
+175926:#### Equality: Differences with HP
+314951:#### Escape and Orbital Velocities
+375091:#### E & B Fields Transformation
+319391:#### Fiber Optic
+420191:#### Fission Reaction
+301293:#### Force Between Wires
+418014:#### General Nuclear Reaction
+381050:#### Gravitational Redshift
+380558:#### Gravitational Time Dilation
+304507:#### Hall Effect
+305948:#### Helicoidal Motion
+346211:#### JFETs
+377077:#### Light Propagation
+309159:#### Linear Motion
+376398:#### Longitudinal Doppler Effect
+355607:#### Longitudinal Waves
+371010:#### Lorentz Transformation
+359854:#### Mach Number
+321993:#### Malus Law
+325475:#### Mass-Spring System
+350429:#### Mohr’s Circle
+343265:#### NMOS Transistor
+349045:#### Normal Stress
+309414:#### Object In Free Fall
+323646:#### One Slit Diffraction
+341944:#### PN Step Junctions
+337153:#### Parallelepiped
+401655:#### Photoelectric Effect
+399016:#### Planck & Rayleigh-Jeans Comparison
+396587:#### Planck & Wien Comparison
+310428:#### Projectile Motion
+411336:#### Radioactivity
+412669:#### Radius & Binding Energy
+321607:#### Rayleigh’s Criterion
+333027:#### Rectangle
+318598:#### Refraction Law
+333592:#### Regular Polygon
+349435:#### Shear Stress
+327394:#### Simple Harmonic
+325839:#### Simple Pendulum
+356206:#### Sound Waves
+361536:#### Sound Wave Harmonics
+372115:#### Space Contraction
+337630:#### Sphere
+320457:#### Spherical Reflection
+320764:#### Spherical Refraction
+299953:#### Straight Wire Finite
+298366:#### Straight Wire Infinite
+349840:#### Stress On An Element
+360546:#### String Standing Waves
+311897:#### Terminal Velocity
+321176:#### Thin Lens
+371652:#### Time Dilation
+171675:#### To include a test in a program
+326976:#### Torsional Pendulum
+376717:#### Transverse Doppler Effect
+355014:#### Transverse Waves
+334754:#### Triangle
+378740:#### Ultrarelativistic Cases
+327839:#### Underdamped Oscillations
+311523:#### Uniform Circular Motion
+372588:#### Velocity Superposition
+306588:#### Volumic Density Magnetic Energy
+413664:#### α Decay
+416841:#### β⊕ Decay
+414950:#### β⊖ Decay
+198820:* `!`
+198832:* `%T`
+198839:* `%Total`
+198826:* `%`
+393784:* `%rFr12`
+393877:* `%rFr34`
+586446:* `'(A+B)^3' { 'X^N' 'X*X^(N-1)' } ↓Match`
+586335:* `'A+B+0' {'X+0' 'X' } ↓Match`
+586387:* `'A+B+C' { 'X+Y' 'Y-X' } ↓Match`
+214057:* `*H`
+216528:* `*W`
+198850:* `*`
+198856:* `+`
+198862:* `-`
+455533:* `.48b`
+455400:* `.48s`
+455765:* `.csv`
+455360:* `.txt`
+198868:* `/`
+518662:* `0.0001_km`
+518676:* `0.001_hm`
+518689:* `0.01_dam`
+518201:* `0.1_m`
+518702:* `0.1_m`
+628672:* `0`
+518264:* `1._dm`
+518561:* `1/10000_km`
+518547:* `1/1000_hm`
+518533:* `1/100_dam`
+518522:* `1/10_m`
+518274:* `10._cm`
+518285:* `100._mm`
+518297:* `100000._μm`
+518420:* `100000_μm`
+518492:* `100_mm`
+518503:* `10_cm`
+518513:* `1_dm`
+628735:* `1`
+628752:* `2`
+628770:* `3`
+628789:* `4`
+628812:* `5`
+628846:* `6`
+628881:* `7`
+628904:* `8`
+628938:* `9`
+216645:* `;`
+172451:* `<`
+198874:* `<`
+172393:* `==`
+198886:* `==`
+172371:* `=`
+198880:* `=`
+172499:* `>`
+198893:* `>`
+408111:* `A0`
+277529:* `A1`
+277566:* `A2`
+212899:* `ABCUV`
+212917:* `ACKALL`
+212909:* `ACK`
+212928:* `ACOS2S`
+212939:* `ADDTMOD`
+212951:* `ADDTOREAL`
+212965:* `ALGB`
+212974:* `ANIMATE`
+212986:* `ANS`
+213002:* `ARCHIVE`
+212994:* `ARC`
+213014:* `ARIT`
+213023:* `ASIN2C`
+213034:* `ASIN2T`
+199214:* `ASRB`
+199223:* `ASRC`
+199206:* `ASR`
+213045:* `ASSUME`
+213056:* `ATAN2S`
+213067:* `ATICK`
+213077:* `AUGMENT`
+213089:* `AUTO`
+213098:* `AXL`
+213106:* `AXM`
+213114:* `AXQ`
+408016:* `AX`
+407483:* `AXα`
+407755:* `AXβ⊕`
+407613:* `AXβ⊖`
+407344:* `AY1`
+407413:* `AY2`
+408064:* `AY`
+407549:* `AYα`
+407827:* `AYβ⊕`
+407685:* `AYβ⊖`
+253652:* `A`
+259498:* `A`
+277501:* `A`
+282205:* `A`
+287431:* `A`
+292486:* `A`
+330980:* `A`
+335433:* `A`
+348715:* `A`
+394099:* `A`
+407028:* `A`
+407897:* `Aa`
+407957:* `Ab`
+124125:* `Activate USB Disk`
+307512:* `Ah`
+338781:* `Aj`
+198932:* `AlarmMenu`
+198946:* `AlgebraMenu`
+198962:* `AllEquationVariables`
+198987:* `AllSolutions`
+199013:* `AlphaForeground`
+199043:* `AmortTable`
+199033:* `Amort`
+199066:* `AngleMode`
+199080:* `AnglesMenu`
+199105:* `ApplyInverseUnit`
+199126:* `ApplyUnit`
+199095:* `Apply`
+199148:* `ArithmeticMenu`
+199167:* `Arry→`
+365727:* `As`
+199198:* `Asn`
+287448:* `At`
+199251:* `Attach`
+199294:* `AutoScaleStack`
+199313:* `AutoSimplify`
+547418:* `AutoSimplify`
+199262:* `AutomaticTemporariesCleanup`
+199330:* `Avg`
+213122:* `BASIS`
+216961:* `BAUD`
+213132:* `BINS`
+213141:* `BOX`
+216970:* `BUFLEN`
+338813:* `BV`
+297417:* `B`
+352218:* `B`
+199338:* `Background`
+111810:* `BarPlot`
+199353:* `Bar`
+199361:* `Base`
+199370:* `BasedDotOrComma`
+199390:* `BasedSeparatorCommand`
+199416:* `BasedSpaces`
+199432:* `BasedSpacing`
+199449:* `BasedTicks`
+199464:* `BasedUnderscore`
+199484:* `BasesMenu`
+199498:* `BatteryBackground`
+199520:* `BatteryForeground`
+199542:* `BatteryLevelForeground`
+199569:* `BatteryRefresh`
+199588:* `BatteryVoltage`
+199616:* `BeepOff`
+199628:* `BeepOn`
+199607:* `Beep`
+199639:* `BestFit`
+199651:* `BigFractions`
+199668:* `Bin`
+199676:* `Bins`
+199685:* `BitwiseLogicForIntegers`
+199723:* `BlankBitmap`
+199739:* `BlankGrob`
+199713:* `Blank`
+366410:* `Bp`
+366493:* `Bpx`
+366596:* `Bpy`
+366699:* `Bpz`
+199753:* `BusyIndicatorRefresh`
+366140:* `Bx`
+366230:* `By`
+199778:* `Bytes`
+366320:* `Bz`
+199788:* `B→R`
+216981:* `C$`
+259758:* `C1`
+213149:* `C2P`
+259825:* `C2`
+213157:* `CASCFG`
+213168:* `CASCMD`
+180669:* `CASE…END`
+199908:* `CF`
+213179:* `CHINREM`
+213191:* `CHOLESKY`
+213204:* `CHOOSE`
+600727:* `CHUCK`
+600788:* `CHUCK`
+600893:* `CHUCK`
+600941:* `CHUCK`
+600991:* `CHUCK`
+601049:* `CHUCK`
+601110:* `CHUCK`
+213215:* `CIRC`
+216988:* `CKSM`
+216997:* `CLKADJ`
+217008:* `CLOSEIO`
+213224:* `CLUSR`
+213234:* `CLVAR`
+213244:* `CMPLX`
+200109:* `CNrm`
+213254:* `COLCT`
+213264:* `COND`
+213273:* `CONIC`
+213283:* `CORR`
+217020:* `CR`
+200654:* `CSwp`
+213292:* `CURL`
+213301:* `CYCLOTOMIC`
+213316:* `CYLIN`
+259698:* `C`
+331123:* `C`
+199798:* `CalculationMenu`
+199834:* `CapitalizedNames`
+199818:* `Capitalized`
+199855:* `CarefulEvaluation`
+199877:* `Catalog`
+282323:* `Cd`
+307586:* `Cd`
+199898:* `Centr`
+199915:* `CharactersMenu`
+199934:* `ChargingForeground`
+199957:* `Chr`
+199965:* `ChronoTime`
+595847:* `ChronoTime`
+199980:* `Circle`
+199991:* `CircularMenu`
+338877:* `Cj`
+200080:* `ClLCD`
+200008:* `ClassicExponent`
+124093:* `Clear state`
+200038:* `ClearBit`
+200051:* `ClearThingsMenu`
+200028:* `Clear`
+200071:* `Clip`
+200090:* `Clone`
+200100:* `ClΣ`
+200118:* `Col+`
+200127:* `Col-`
+200136:* `Collect`
+191439:* `Color`
+200148:* `ColΣ`
+200158:* `Col→`
+200178:* `CommandBackground`
+200200:* `CommandDisplayMode`
+200223:* `CommandForeground`
+200245:* `CompareMenu`
+200261:* `CompatibleBasedNumbers`
+200288:* `CompatibleGROBs`
+200308:* `CompatibleTypes`
+200328:* `ComplexIAfterImaginary`
+200355:* `ComplexIBeforeImaginary`
+200383:* `ComplexMenu`
+200399:* `ComplexResults`
+200435:* `ConLib`
+200418:* `Con`
+200446:* `Const`
+200456:* `ConstantName`
+200487:* `ConstantValue`
+200473:* `Constants`
+200544:* `ConvertToUnitPrefix`
+200526:* `ConvertToUnit`
+200514:* `Convert`
+200568:* `Corr`
+200594:* `CountBits`
+200608:* `Cov`
+338966:* `Cox`
+259893:* `Cp`
+200616:* `CrDir`
+259963:* `Cs`
+200634:* `CstRU`
+200644:* `CstSU`
+200626:* `Cst`
+200663:* `CurrentClip`
+200679:* `CurrentDirectory`
+200700:* `CurrentEquationVariables`
+200729:* `CurrentFitSums`
+200748:* `CursorAlphaBackground`
+200774:* `CursorAlphaBorder`
+200796:* `CursorAlphaForeground`
+200822:* `CursorBackground`
+200843:* `CursorBlinkRate`
+200863:* `CursorBorder`
+200880:* `CursorFont`
+200895:* `CursorForeground`
+200916:* `CursorSelBackground`
+200940:* `CurveFilling`
+200957:* `CustomHeaderRefresh`
+200981:* `Cycle`
+213326:* `C→PX`
+200991:* `C→R`
+277617:* `D1`
+277642:* `D2`
+213337:* `DARCY`
+201171:* `DDays`
+213355:* `DEFINE`
+213347:* `DEF`
+213366:* `DEGREE`
+213377:* `DELALARM`
+217027:* `DELAY`
+213390:* `DEPND`
+213400:* `DERIV`
+213410:* `DERVX`
+213420:* `DESOLVE`
+213456:* `DIAGMAP`
+213432:* `DIAG→`
+213477:* `DIFFEQ`
+213468:* `DIFF`
+213488:* `DISTRIB`
+213508:* `DIV2MOD`
+213520:* `DIVIS`
+213530:* `DIVMOD`
+213541:* `DIVPC`
+213500:* `DIV`
+201465:* `DMCPDisplayRefresh`
+201488:* `DMCPLowBattery`
+201507:* `DMS+`
+201516:* `DMS-`
+201525:* `DMS→`
+213558:* `DOMAIN`
+213569:* `DRAW3DMATRIX`
+213586:* `DROITE`
+201640:* `DTag`
+277601:* `D`
+201010:* `Date+`
+595648:* `DateAdd`
+201020:* `DateDash`
+201033:* `DateDot`
+201045:* `DateForeground`
+595704:* `DateFromJulianDayNumber`
+201064:* `DateMenu`
+201077:* `DateSeparatorCommand`
+201102:* `DateSlash`
+201116:* `DateSpace`
+595660:* `DateSub`
+201130:* `DateTime`
+595635:* `DateTime`
+595872:* `DateTime`
+201001:* `Date`
+595626:* `Date`
+201143:* `DayBeforeMonth`
+201181:* `DebugMenu`
+201195:* `DebugOnError`
+201212:* `Dec`
+201220:* `DecimalComma`
+201237:* `DecimalDot`
+201252:* `Decr`
+201261:* `Deg`
+201269:* `DelKeys`
+201281:* `Depth`
+201299:* `Detach`
+201310:* `DetailedTypes`
+201328:* `DifferentialSolverMenu`
+201419:* `DispXY`
+201355:* `Disp`
+201364:* `DisplayDigits`
+201382:* `DisplayMode`
+201398:* `DisplayModesMenu`
+201430:* `DistinguishSymbolCase`
+201456:* `Div2`
+201546:* `DoList`
+201557:* `DoSubs`
+297514:* `Dpitch`
+201585:* `DrawPlotAxes`
+201576:* `Draw`
+201602:* `Drax`
+201620:* `Drop2`
+201630:* `DropN`
+201611:* `Drop`
+201657:* `Dup2`
+201666:* `DupDup`
+201677:* `DupN`
+201649:* `Dup`
+201686:* `D→R`
+339063:* `E1`
+408193:* `EB`
+408260:* `EBse`
+213597:* `EDITB`
+213607:* `EGCD`
+213624:* `EGVL`
+213616:* `EGV`
+213633:* `ENDSUB`
+213644:* `EPSX0`
+213654:* `EQW`
+213662:* `EQ→`
+213672:* `ERASE`
+213682:* `EULER`
+213692:* `EXLR`
+213701:* `EXP&LN`
+213712:* `EXP2HYP`
+213724:* `EXP2POW`
+213736:* `EXPANDMOD`
+213750:* `EXPLN`
+213760:* `EYEPT`
+253871:* `E`
+260070:* `E`
+282348:* `E`
+324625:* `E`
+348727:* `E`
+352420:* `E`
+366802:* `E`
+201705:* `EditMenu`
+201696:* `Edit`
+201718:* `EditorBackground`
+201739:* `EditorBegin`
+201755:* `EditorClear`
+201771:* `EditorCopy`
+201786:* `EditorCut`
+201800:* `EditorEnd`
+201814:* `EditorFlip`
+201829:* `EditorFont`
+201844:* `EditorForeground`
+201883:* `EditorHistoryBack`
+201865:* `EditorHistory`
+201905:* `EditorLineForeground`
+201930:* `EditorPaste`
+201946:* `EditorReplace`
+201964:* `EditorSearch`
+201981:* `EditorSelect`
+201998:* `EditorWordLeft`
+202017:* `EditorWordRight`
+202037:* `EditorWrapColumn`
+260304:* `Ein`
+202058:* `Ellipse`
+352521:* `Em`
+339139:* `Emax`
+394274:* `En`
+202070:* `EndSub`
+202081:* `Eng`
+394346:* `Enp`
+121746:* `Enter System Menu`
+260219:* `Ep`
+367007:* `Ep`
+394613:* `Eph`
+394679:* `Epph`
+367406:* `Epx`
+367498:* `Epy`
+367590:* `Epz`
+202089:* `Eq`
+202096:* `EqnLib`
+202107:* `EquationName`
+202124:* `EquationSolver`
+202143:* `EquationValue`
+260125:* `Er`
+202215:* `ErrorBackground`
+202235:* `ErrorBeepDuration`
+202257:* `ErrorBeepFrequency`
+202280:* `ErrorBorder`
+202296:* `ErrorForeground`
+202325:* `EvalEq`
+202316:* `Eval`
+367169:* `Ex`
+202349:* `ExitClearsMenu`
+202368:* `ExitKeepsMenu`
+202413:* `ExpFit`
+578733:* `ExpFit`
+202446:* `ExpLogIdentitiesMenu`
+202471:* `ExpLogMenu`
+202403:* `Expan`
+202424:* `ExplicitWildcards`
+367248:* `Ey`
+367327:* `Ez`
+316735:* `E₀`
+367079:* `E₀`
+213770:* `F0λ`
+213790:* `FACTORMOD`
+213779:* `FACTOR`
+213804:* `FANNING`
+213816:* `FAST3D`
+202531:* `FC?C`
+202540:* `FC?S`
+202523:* `FC?`
+213827:* `FCOEF`
+213837:* `FDISTRIB`
+213850:* `FFT`
+202549:* `FF`
+217037:* `FILER`
+213858:* `FINDALARM`
+217047:* `FINISH`
+217058:* `FLASHEVAL`
+213872:* `FONT6`
+213882:* `FONT7`
+213892:* `FONT8`
+213902:* `FONT→`
+213926:* `FOURIER`
+202810:* `FP`
+217072:* `FREE`
+213938:* `FROOTS`
+202889:* `FS?C`
+202898:* `FS?S`
+202881:* `FS?`
+422133:* `FV`
+213949:* `FXND`
+260392:* `F`
+282401:* `F`
+202581:* `Factors`
+202495:* `False`
+202505:* `FancyExponent`
+297572:* `Fba`
+202556:* `FilesMenu`
+202570:* `Filter`
+202593:* `FinalAlgebraResults`
+202617:* `FinanceRounding`
+202637:* `FirstBitSet`
+202653:* `Fix`
+202661:* `FixedWidthDigits`
+202682:* `FlagsMenu`
+202696:* `FlatMenus`
+202710:* `FlipBit`
+202732:* `FoldConstants`
+202750:* `FolderCornerForeground`
+202777:* `Foreground`
+202792:* `FourDigitYear`
+395591:* `FrPl12`
+395813:* `FrPl34`
+395733:* `FrRJ12`
+395955:* `FrRJ34`
+395663:* `FrWn12`
+395885:* `FrWn34`
+202835:* `FractionSpacing`
+202817:* `FractionsMenu`
+202855:* `FreeMemory`
+202870:* `Freeze`
+395448:* `Frfafb`
+395519:* `Frfafb`
+595813:* `FromHMS`
+202907:* `Function`
+339209:* `G0`
+213958:* `GAUSS`
+202930:* `GAnd`
+213968:* `GBASIS`
+213987:* `GCDMOD`
+213979:* `GCD`
+202946:* `GCIconForeground`
+202979:* `GCStatsClearAfterRead`
+203005:* `GCStatsKeepAfterRead`
+202967:* `GCStats`
+203030:* `GCTemporariesCleanup`
+202939:* `GC`
+203072:* `GOr`
+213998:* `GRAD`
+214007:* `GRAMSCHMIDT`
+214023:* `GRAPH`
+214033:* `GREDUCE`
+214045:* `GRIDMAP`
+203411:* `GXor`
+324760:* `G`
+348792:* `G`
+202920:* `Gamma`
+203063:* `GetI`
+203055:* `Get`
+203080:* `Grad`
+203362:* `GraphRenderingSizeLimit`
+203089:* `GraphicAppend`
+203107:* `GraphicExponent`
+203127:* `GraphicIntegral`
+203147:* `GraphicNorm`
+203163:* `GraphicParentheses`
+203186:* `GraphicProduct`
+203205:* `GraphicRatio`
+203222:* `GraphicResultDisplay`
+203247:* `GraphicRoot`
+203280:* `GraphicStackDisplay`
+203304:* `GraphicSubscript`
+203325:* `GraphicSum`
+203263:* `GraphicsMenu`
+203340:* `GraphingTimeLimit`
+203390:* `Gray`
+203399:* `GrobAdd`
+214064:* `HADAMARD`
+214077:* `HALFTAN`
+214089:* `HEADER→`
+214117:* `HERMITE`
+214129:* `HESS`
+203571:* `HFP`
+214138:* `HILBERT`
+214150:* `HISTOGRAM`
+214164:* `HISTPLOT`
+203832:* `HMS+`
+203841:* `HMS-`
+595825:* `HMSAdd`
+595836:* `HMSSub`
+203850:* `HMS→`
+214177:* `HORNER`
+191374:* `HSV`
+203420:* `HalfBatteryForeground`
+203446:* `Halt`
+203455:* `HaltedIconForeground`
+203480:* `Hdr`
+203488:* `Head`
+203497:* `HeaderBackground`
+203518:* `HeaderFont`
+203533:* `HeaderForeground`
+203554:* `Help`
+203563:* `Hex`
+203579:* `HideBuiltinCharacters`
+203605:* `HideBuiltinConstants`
+203630:* `HideBuiltinEquations`
+203655:* `HideBuiltinLibrary`
+203678:* `HideBuiltinUnits`
+203699:* `HideDate`
+203712:* `HideDayOfWeek`
+203730:* `HideEmptyMenu`
+203748:* `HideEquationBody`
+203769:* `HideMonthName`
+203787:* `HideSeconds`
+203803:* `HideTime`
+203816:* `HideVoltage`
+111867:* `HistogramPlot`
+191307:* `HistogramPlot`
+203861:* `Home`
+203870:* `HorizontalLists`
+203890:* `HorizontalProgramRendering`
+203921:* `HorizontalVectors`
+203943:* `HyperbolicMenu`
+421929:* `I%Yr`
+260606:* `I1`
+214188:* `IABCUV`
+214199:* `IBASIS`
+214210:* `IBERNOULLI`
+214225:* `IBP`
+339472:* `IB`
+339607:* `ICEO`
+214233:* `ICHINREM`
+339698:* `ICO`
+339786:* `ICS`
+339537:* `IC`
+339870:* `ID, IDS`
+214246:* `IEGCD`
+340003:* `IES`
+339935:* `IE`
+214256:* `IFFT`
+180720:* `IFTE`
+203978:* `IFTE`
+180694:* `IFT`
+203970:* `IFT`
+180632:* `IF…THEN…ELSE…END`
+180602:* `IF…THEN…END`
+214265:* `ILAP`
+214274:* `IMAGE`
+214284:* `INDEP`
+214294:* `INFORM`
+214313:* `INTEGER`
+214325:* `INTVX`
+214305:* `INT`
+214335:* `INVMOD`
+204310:* `IOMenu`
+204321:* `IP`
+214346:* `IQUOT`
+214356:* `IREMAINDER`
+214371:* `ISOM`
+340085:* `IS`
+253947:* `I`
+260497:* `I`
+282587:* `I`
+297649:* `I`
+316949:* `I`
+324850:* `I`
+331276:* `I`
+335659:* `I`
+339413:* `I`
+353280:* `I`
+297702:* `Ia`
+297756:* `Ib`
+331423:* `Id`
+335807:* `Id`
+203962:* `Idn`
+203987:* `IgnorePrecisionLoss`
+204011:* `IgnoreSymbolCase`
+260668:* `Imax`
+204039:* `ImplicitWildcards`
+204061:* `Implies`
+204073:* `ImproperFractions`
+204095:* `Incr`
+204104:* `IndexDidNotWrap`
+204124:* `IndexWrapped`
+204141:* `InfiniteResultIndicator`
+204169:* `InfinityError`
+204187:* `InfinityValue`
+204205:* `Input`
+204215:* `IntegrationImprecision`
+204242:* `IntegrationIterations`
+204268:* `IntegrationMenu`
+204288:* `Intercept`
+204328:* `Isol`
+317239:* `Ix0`
+317141:* `Ix`
+331349:* `Ix`
+335732:* `Ixx`
+331515:* `Iy`
+335899:* `Izz`
+317045:* `I₀`
+214380:* `I→R`
+204337:* `JDN`
+204345:* `JDN→`
+214390:* `JORDAN`
+262833:* `J`
+324910:* `J`
+331589:* `J`
+340161:* `J`
+348863:* `J`
+262891:* `Je`
+262959:* `Jh`
+340219:* `Js`
+595684:* `JulianDayNumber`
+217081:* `KERRM`
+214401:* `KER`
+214417:* `KEYEVAL`
+217106:* `KEYTIME→`
+214409:* `KEY`
+217121:* `KGET`
+254001:* `K`
+368219:* `K`
+396035:* `K`
+408343:* `K`
+204356:* `Keys`
+282777:* `Kf`
+282707:* `Ki`
+204374:* `KillOnError`
+204365:* `Kill`
+396114:* `Kmax`
+408430:* `Kmax`
+293401:* `L1`
+293416:* `L2`
+293431:* `L3`
+214429:* `LABEL`
+214439:* `LAGRANGE`
+217130:* `LANGUAGE→`
+214460:* `LAPL`
+214452:* `LAP`
+214469:* `LAST`
+204480:* `LCD→`
+214478:* `LCM`
+214486:* `LCXM`
+214495:* `LDEC`
+214504:* `LEGENDRE`
+214517:* `LGCD`
+217162:* `LIBEVAL`
+217174:* `LIBS`
+214534:* `LIMIT`
+214552:* `LININ`
+214562:* `LINSOLVE`
+214544:* `LIN`
+214575:* `LNCOLLECT`
+204744:* `LName`
+214589:* `LOCAL`
+214599:* `LQ`
+204925:* `LR`
+214606:* `LSQ`
+214614:* `LU`
+214621:* `LVAR`
+254042:* `L`
+260732:* `L`
+277794:* `L`
+293387:* `L`
+297810:* `L`
+317979:* `L`
+325026:* `L`
+331667:* `L`
+340289:* `L`
+348923:* `L`
+204390:* `LastArg`
+204402:* `LastBitSet`
+204417:* `LastMenu`
+204430:* `LastX`
+204440:* `LaxArrayResizing`
+204461:* `LazyEvaluation`
+340455:* `Le`
+204491:* `LeadingZero`
+204507:* `LeftShiftBackground`
+204531:* `LeftShiftForeground`
+204566:* `LibEq`
+204576:* `Library`
+204588:* `Libs`
+204659:* `LinFit`
+578649:* `LinFit`
+204645:* `LineWidth`
+204597:* `Line`
+204606:* `LinearFitSums`
+204624:* `LinearSolverMenu`
+204670:* `ListAsData`
+204685:* `ListAsProgram`
+204703:* `ListMenu`
+185073:* `ListRecursionDepth`
+204716:* `List→`
+124063:* `Load state`
+204771:* `LogFit`
+578689:* `LogFit`
+204795:* `LongFormNames`
+204782:* `LongForm`
+204813:* `LoopsMenu`
+204842:* `LowBatteryForeground`
+204827:* `LowBattery`
+204867:* `LowerAlphaForeground`
+204906:* `LowerCaseNames`
+204892:* `LowerCase`
+260892:* `Lp`
+260962:* `Ls`
+214630:* `MAD`
+214638:* `MAIN`
+214647:* `MATHS`
+214657:* `MATR`
+214666:* `MAXR`
+214675:* `MCALC`
+214685:* `MENUXY`
+217183:* `MERGE`
+368320:* `MGu`
+217193:* `MINEHUNT`
+214696:* `MINIFONT→`
+214728:* `MINIT`
+214738:* `MINR`
+214747:* `MITM`
+214756:* `MKISOM`
+214767:* `MODSTO`
+214778:* `MODULAR`
+214790:* `MOLWT`
+205397:* `MRoot`
+214800:* `MSGBOX`
+214811:* `MSLV`
+214820:* `MSOLVR`
+205407:* `MSlv`
+205416:* `MSolvr`
+214831:* `MULTMOD`
+214843:* `MUSER`
+287552:* `MW`
+408910:* `MW`
+254074:* `M`
+277808:* `M`
+287521:* `M`
+353404:* `M`
+368280:* `M`
+204932:* `MainMenu`
+204954:* `MantissaSpacing`
+204974:* `Map`
+204982:* `MatchUp`
+204994:* `MathMenu`
+205007:* `MathModesMenu`
+205025:* `MatrixMenu`
+205048:* `MaxFlags`
+205061:* `MaxH`
+205097:* `MaxNumberBits`
+205115:* `MaxRewrites`
+205131:* `MaxW`
+205040:* `Max`
+205070:* `MaximumDecimalExponent`
+205140:* `MaxΣ`
+205150:* `Median`
+205161:* `Mem`
+205169:* `MemoryMenu`
+205193:* `MenuAppearance`
+205212:* `MenuBackground`
+205184:* `Menu`
+124109:* `Merge state`
+205231:* `Min`
+205239:* `MinimumBatteryVoltage`
+205265:* `MinimumSignificantDigits`
+205294:* `MinΣ`
+205304:* `MixedFractions`
+205331:* `ModernBasedNumbers`
+205364:* `ModesMenu`
+205354:* `Modes`
+205378:* `MonthBeforeDay`
+307912:* `Mp`
+205475:* `MultiLineResult`
+205495:* `MultiLineStack`
+205532:* `MultiSolverMenu`
+205427:* `MultilineCursorFont`
+205451:* `MultilineEditorFont`
+205514:* `MultipleSteps`
+368500:* `MxSagA`
+254131:* `Mx`
+368398:* `Mxearth`
+368451:* `Mxsun`
+409150:* `N0`
+318046:* `NA`
+340486:* `NA`
+205572:* `NAnd`
+214853:* `NDIST`
+340641:* `ND`
+205581:* `NDupN`
+214863:* `NOVAL`
+205977:* `NOr`
+206101:* `NSub`
+214873:* `NUMX`
+214882:* `NUMY`
+261030:* `N`
+282896:* `N`
+297836:* `N`
+307940:* `N`
+408961:* `N`
+205552:* `NameDisplayMode`
+205591:* `NeedToClearErrors`
+205621:* `NegativeUnderflowIndicator`
+205652:* `NextEq`
+205663:* `NextPr`
+283013:* `Nf`
+282950:* `Ni`
+205674:* `Nip`
+205682:* `NoAngleUnits`
+205699:* `NoAutoSimplify`
+205718:* `NoCurveFilling`
+205737:* `NoErrorForTooManyDigits`
+205765:* `NoInfiniteResult`
+205786:* `NoLastArguments`
+205806:* `NoLeadingZero`
+205824:* `NoNeedToClearErrors`
+205848:* `NoNegativeUnderflow`
+205872:* `NoNumberedVariables`
+205896:* `NoOverflow`
+205911:* `NoPlotAxes`
+205926:* `NoPositiveUnderflow`
+205950:* `NoProgramLastArguments`
+206012:* `NoStackAutoScale`
+206033:* `NoStackSave`
+206057:* `NoTrailingDecimal`
+206079:* `NoUndefinedResult`
+205985:* `NormalPolynomialRender`
+206110:* `Num`
+206118:* `NumberDotOrComma`
+206161:* `NumberSeparatorCommand`
+206204:* `NumberSpaces`
+206221:* `NumberTicks`
+206237:* `NumberUnderscore`
+206139:* `NumberedVariables`
+206188:* `NumbersMenu`
+206258:* `NumericalConstants`
+206281:* `NumericalIntegration`
+206306:* `NumericalResults`
+206347:* `NumericalSolverMenu`
+206327:* `NumericalSolver`
+206371:* `NΣ`
+217219:* `OLDPRT`
+217230:* `OPENIO`
+214891:* `ORDER`
+206379:* `ObjectMenu`
+206394:* `Obj→`
+206405:* `Oct`
+206421:* `OffWithImage`
+206413:* `Off`
+206438:* `OnesComplement`
+206464:* `Over`
+206473:* `OverflowError`
+206491:* `OverflowIndicator`
+206513:* `OverflowValue`
+277993:* `P0`
+287815:* `P0`
+278058:* `P1`
+214901:* `P2C`
+278121:* `P2`
+214909:* `PA2B2`
+217241:* `PARITY`
+214919:* `PARSURFACE`
+214934:* `PARTFRAC`
+369210:* `PBH`
+214947:* `PCAR`
+214956:* `PCOEF`
+214966:* `PCONTOUR`
+206587:* `PCov`
+214979:* `PDIM`
+214988:* `PERINFO`
+215000:* `PERTBL`
+215011:* `PEVAL`
+215021:* `PICTURE`
+217252:* `PINIT`
+217262:* `PKT`
+215042:* `PLOTADD`
+215033:* `PLOT`
+215054:* `PMINI`
+206754:* `PMax`
+206763:* `PMin`
+215064:* `POLYNOMIAL`
+215079:* `POP`
+215087:* `POS`
+215095:* `POTENTIAL`
+215109:* `POWEXPAND`
+215123:* `POWMOD`
+206887:* `PPar`
+217270:* `PR1`
+215134:* `PREDV`
+215144:* `PREVAL`
+217278:* `PRLCD`
+215155:* `PROMPTSTO`
+215169:* `PROOT`
+215179:* `PROPFRAC`
+217297:* `PRSTC`
+217288:* `PRST`
+217307:* `PRVAR`
+215192:* `PSDEV`
+207087:* `PSDev`
+215202:* `PSI`
+215218:* `PTAYL`
+215228:* `PTPROP`
+215239:* `PUSH`
+217317:* `PVARS`
+215248:* `PVIEW`
+422039:* `PV`
+207192:* `PVar`
+215258:* `PX→C`
+421973:* `PYr`
+254205:* `P`
+261053:* `P`
+277932:* `P`
+283074:* `P`
+287705:* `P`
+331720:* `P`
+348937:* `P`
+206531:* `PackedBitmaps`
+206549:* `Parametric`
+206564:* `PartsMenu`
+206578:* `Path`
+283137:* `Pavg`
+287881:* `Pc`
+254306:* `Pcr`
+288015:* `Pf`
+206605:* `PgDir`
+206643:* `PiRadians`
+206624:* `Pick3`
+206615:* `Pick`
+206634:* `Pict`
+287951:* `Pin`
+206657:* `Pix?`
+206666:* `PixC?`
+206676:* `PixOff`
+206687:* `PixOn`
+206697:* `PlotErrorBackground`
+206721:* `PlotMenu`
+206734:* `PlotRefreshRate`
+422001:* `Pmt`
+206772:* `Polar`
+206802:* `PolynomialSolverMenu`
+206782:* `PolynomialsMenu`
+206827:* `Poly→`
+206839:* `PositiveUnderflowIndicator`
+206870:* `PowerVoltage`
+288076:* `Pr`
+206896:* `PrcRnd`
+206907:* `Prec`
+206916:* `PredX`
+206926:* `PredY`
+206947:* `PrefixPolynomialRender`
+206936:* `PrevPr`
+288134:* `Prf`
+288101:* `Pri`
+206974:* `PrincipalSolution`
+206996:* `PrintingMenu`
+207013:* `ProbabilitiesMenu`
+207035:* `ProgramLastArguments`
+207060:* `ProgramMenu`
+207076:* `Prompt`
+353525:* `Ps`
+215210:* `Psi`
+207107:* `PurgeAll`
+207097:* `Purge`
+207120:* `PushEvaluatedAssignment`
+207148:* `PushOriginalAssignment`
+207183:* `PutI`
+207175:* `Put`
+207201:* `PwrFit`
+578778:* `PwrFit`
+368559:* `Pθ`
+207212:* `P→R`
+215276:* `QR`
+215283:* `QUAD`
+215301:* `QUOTE`
+215292:* `QUOT`
+215311:* `QXA`
+278182:* `Q`
+293458:* `Q`
+325064:* `Q`
+409184:* `Q`
+261264:* `Qp`
+261296:* `Qs`
+207222:* `QuickSort`
+409265:* `Qα`
+409422:* `Qβ⊕`
+409341:* `Qβ⊖`
+261413:* `R1`
+369305:* `R1`
+261484:* `R2`
+369331:* `R2`
+215319:* `RANK`
+215328:* `RATIO`
+215346:* `RCIJ`
+215338:* `RCI`
+215355:* `RCLALARM`
+215368:* `RCLF`
+215377:* `RCLVX`
+215387:* `RDM`
+217327:* `RECN`
+217336:* `RECV`
+215395:* `REF`
+215403:* `REMAINDER`
+215417:* `RENAME`
+215428:* `REORDER`
+215440:* `REPL`
+217345:* `RESTORE`
+215457:* `RESULTANT`
+215449:* `RES`
+207714:* `RGB`
+215479:* `RKFERR`
+215490:* `RKFSTEP`
+215471:* `RKF`
+207789:* `RLB`
+207797:* `RLC`
+207782:* `RL`
+215502:* `RNRM`
+217357:* `ROMUPLOAD`
+215522:* `ROW+`
+215511:* `ROW–`
+215531:* `ROW→`
+217371:* `RPL>`
+207962:* `RRB`
+207970:* `RRC`
+215571:* `RREFMOD`
+215562:* `RREF`
+215591:* `RRKSTEP`
+215583:* `RRK`
+207955:* `RR`
+207978:* `RRect`
+215603:* `RSBERR`
+215614:* `RSD`
+215622:* `RSWP`
+207988:* `RSwp`
+215631:* `RULES`
+261349:* `R`
+307998:* `R`
+369284:* `R`
+409503:* `R`
+207236:* `Rad`
+207327:* `RanM`
+207264:* `RandomGeneratorBits`
+207288:* `RandomGeneratorOrder`
+207253:* `Random`
+207313:* `RangeMenu`
+207336:* `RcEq`
+298028:* `Rc`
+207353:* `Rcl*`
+207362:* `Rcl+`
+207371:* `Rcl-`
+207380:* `Rcl/`
+207389:* `RclF`
+207398:* `RclKeys`
+207410:* `RclMenu`
+207345:* `Rcl`
+207422:* `RclΣ`
+207456:* `RealMenu`
+207469:* `RealResults`
+207485:* `Rect`
+207494:* `Reduce`
+207505:* `RelRnd`
+369357:* `Remp`
+207524:* `ReorderTerms`
+207541:* `ReportPrecisionLoss`
+191265:* `Res`
+121769:* `Reset to DMCP menu`
+207565:* `ResetModes`
+207580:* `ResultBackground`
+207601:* `ResultFont`
+207616:* `ResultForeground`
+207637:* `ResultGraphingTimeLimit`
+207702:* `RevList`
+207665:* `ReverseQuickSort`
+207686:* `ReverseSort`
+278240:* `Reynolds`
+207722:* `RightShiftBackground`
+207747:* `RightShiftForeground`
+207772:* `Risch`
+207805:* `Rnd`
+207822:* `RollD`
+207813:* `Roll`
+207832:* `Root`
+207841:* `Rot`
+207866:* `RoundMenuBackground`
+207890:* `RoundMenuForeground`
+447918:* `Round`
+207849:* `RoundedMenus`
+207914:* `Row+`
+207923:* `Row-`
+207932:* `RowNorm`
+207944:* `Row→`
+261601:* `Rp`
+261675:* `Rs`
+208044:* `RunStatsClearAfterRead`
+208071:* `RunStatsKeepAfterRead`
+208031:* `RunStats`
+207997:* `Run`
+208005:* `RunningIconForeground`
+208097:* `R→B`
+208107:* `R→C`
+208117:* `R→D`
+208127:* `R→I`
+215641:* `R→I`
+208137:* `R→P`
+369492:* `SBH`
+217380:* `SBRK`
+215651:* `SCATRPLOT`
+215665:* `SCATTER`
+215677:* `SCHUR`
+215687:* `SCLΣ`
+215697:* `SCONJ`
+215707:* `SCROLL`
+215718:* `SDEV`
+208276:* `SDev`
+217389:* `SEND`
+215727:* `SEQ`
+215735:* `SERIES`
+217398:* `SERVER`
+215746:* `SEVAL`
+208485:* `SFP`
+208478:* `SF`
+215756:* `SHOW`
+215765:* `SIDENS`
+215786:* `SIGMAVX`
+215776:* `SIGMA`
+215798:* `SIGNTAB`
+215810:* `SIMP2`
+215820:* `SIMPLIFY`
+215833:* `SINCOS`
+215844:* `SINV`
+215853:* `SIZE`
+209007:* `SKey`
+209049:* `SLB`
+209057:* `SLC`
+215862:* `SLOPEFIELD`
+209042:* `SL`
+215877:* `SNEG`
+215886:* `SNRM`
+215905:* `SOLVEQN`
+215917:* `SOLVER`
+215928:* `SOLVEVX`
+215895:* `SOLVE`
+215940:* `SPHERE`
+215951:* `SRAD`
+209333:* `SRB`
+209341:* `SRC`
+217409:* `SRECV`
+215960:* `SREPL`
+209326:* `SR`
+217419:* `STIME`
+215970:* `STOALARM`
+215983:* `STOF`
+215992:* `STOVX`
+216002:* `STREAM`
+217429:* `STRM`
+216023:* `STURMAB`
+216013:* `STURM`
+216043:* `SUBTMOD`
+216035:* `SUB`
+216055:* `SVD`
+216063:* `SVL`
+216071:* `SYLVESTER`
+217438:* `SYSEVAL`
+216085:* `SYST2MAT`
+172553:* `Same`
+124078:* `Save state`
+208156:* `SaveLastArguments`
+208178:* `SaveStack`
+208192:* `SaveState`
+208216:* `ScaleH`
+208227:* `ScaleW`
+208206:* `Scale`
+111745:* `ScatterPlot`
+208238:* `Scatter`
+208250:* `Sci`
+208258:* `ScreenCapture`
+208285:* `SearchBackground`
+208306:* `SearchForeground`
+208327:* `SelectedMenuForeground`
+208354:* `SelectionBackground`
+208378:* `SelectionForeground`
+208402:* `SeparatorModesMenu`
+208425:* `SetAngleUnits`
+208443:* `SetBit`
+208454:* `SetDate`
+595672:* `SetDate`
+208466:* `SetTime`
+595908:* `SetTime`
+124147:* `Show Disk Info`
+208502:* `ShowAsDecimal`
+208520:* `ShowBuiltinCharacters`
+208546:* `ShowBuiltinConstants`
+208571:* `ShowBuiltinEquations`
+208596:* `ShowBuiltinLibrary`
+208619:* `ShowBuiltinUnits`
+208640:* `ShowDate`
+208653:* `ShowDayOfWeek`
+208671:* `ShowEmptyMenu`
+208689:* `ShowEquationBody`
+208710:* `ShowIntegersAndFractions`
+208739:* `ShowMonthName`
+208757:* `ShowSeconds`
+208786:* `ShowTimeLimit`
+208773:* `ShowTime`
+208804:* `ShowVoltage`
+208493:* `Show`
+208828:* `SigDig`
+447628:* `SigDig`
+208820:* `Sig`
+208848:* `SignalProcessingMenu`
+447486:* `SignificantDisplay`
+208873:* `SilentBeepOff`
+208891:* `SilentBeepOn`
+208908:* `Simplify`
+208929:* `SingleLineResult`
+208950:* `SingleLineStack`
+208970:* `SingleRowMenus`
+208998:* `Size`
+209016:* `SkippedMenuBackground`
+209065:* `Slope`
+209075:* `SmallFractions`
+209094:* `SoftwareDisplayRefresh`
+209121:* `SolverImprecision`
+209143:* `SolverIterations`
+209180:* `SolvingMenuRecall`
+209202:* `SolvingMenuSolve`
+209223:* `SolvingMenuStore`
+209164:* `SolvingMenu`
+209244:* `Sort`
+209260:* `SquareMenuBackground`
+209285:* `SquareMenuForeground`
+209310:* `SquareMenus`
+209706:* `StEq`
+209357:* `StackBackground`
+209377:* `StackEditor`
+209393:* `StackFont`
+209407:* `StackForeground`
+209427:* `StackGraphingTimeLimit`
+209454:* `StackLevelBackground`
+209479:* `StackLevelForeground`
+209504:* `StackLineForeground`
+209528:* `StackMenu`
+209542:* `StandardExponent`
+209563:* `StateNameForeground`
+209587:* `StatisticsMenu`
+209614:* `StdRnd`
+209606:* `Std`
+209625:* `StepByStepAlgebraResults`
+209654:* `StepOut`
+209666:* `StepOver`
+209679:* `SteppingIconForeground`
+209723:* `Sto*`
+209732:* `Sto+`
+209741:* `Sto-`
+209750:* `Sto/`
+209759:* `StoF`
+209768:* `StoKeys`
+209812:* `StoVX`
+209715:* `Sto`
+209780:* `StoreAtEnd`
+209795:* `StoreAtStart`
+209822:* `StoΣ`
+209832:* `StrictArrayResizing`
+209856:* `Str→`
+209876:* `Sub`
+209884:* `Subst`
+209894:* `Swap`
+209903:* `SymbolicConstants`
+209925:* `SymbolicIntegration`
+209949:* `SymbolicMenu`
+209966:* `SymbolicResults`
+547398:* `SymbolicResults`
+210005:* `SymbolicSolverMenu`
+209986:* `SymbolicSolver`
+210028:* `SystemMemory`
+210045:* `SystemSetup`
+121734:* `System`
+262538:* `T0`
+288244:* `T0`
+216098:* `TABVAL`
+216109:* `TABVAR`
+216120:* `TAN2CS2`
+216143:* `TAN2SC2`
+216132:* `TAN2SC`
+216155:* `TAYLOR0`
+216167:* `TAYLR`
+216177:* `TCHEBYCHEFF`
+216193:* `TCOLLECT`
+216206:* `TDELTA`
+216217:* `TESTS`
+216227:* `TEXPAND`
+216239:* `TEXT`
+210125:* `TEval`
+369624:* `TH`
+216248:* `TINC`
+216266:* `TLINE`
+216257:* `TLIN`
+210462:* `TMenu`
+216276:* `TRACE`
+217450:* `TRANSIO`
+216286:* `TRAN`
+216304:* `TRIGCOS`
+216316:* `TRIGO`
+210789:* `TRIGSIN`
+216326:* `TRIGTAN`
+216295:* `TRIG`
+216338:* `TRN`
+216346:* `TRUNC`
+216356:* `TRUTH`
+216366:* `TSIMP`
+216376:* `TSTR`
+210871:* `TVMBeg`
+210882:* `TVMEnd`
+210893:* `TVMEquation`
+210909:* `TVMRoot`
+210863:* `TVM`
+210853:* `TVars`
+262508:* `T`
+288166:* `T`
+293587:* `T`
+298279:* `T`
+325098:* `T`
+340828:* `T`
+348995:* `T`
+354006:* `T`
+396421:* `T`
+210061:* `TabWidth`
+210074:* `Tag→`
+210085:* `Tail`
+354079:* `Tair`
+288275:* `Tc`
+293606:* `Tc`
+369559:* `Tday`
+210111:* `TestsMenu`
+210135:* `TextMenu`
+210148:* `TextRenderingSizeLimit`
+210175:* `TextResultDisplay`
+210197:* `TextStackDisplay`
+210218:* `Text→Algebraic`
+210239:* `Text→Code`
+210255:* `Text→Expression`
+210277:* `Text→Integer`
+210296:* `Text→Number`
+210314:* `Text→Object`
+210332:* `Text→Positive`
+210352:* `Text→Real`
+288438:* `Tf`
+293863:* `Tf`
+293723:* `Th`
+409587:* `Thl`
+210368:* `ThreeRowsMenus`
+288410:* `Ti`
+293835:* `Ti`
+210387:* `Ticks`
+595862:* `Ticks`
+210406:* `Time12H`
+210418:* `Time24H`
+210430:* `TimeForeground`
+210449:* `TimeMenu`
+210397:* `Time`
+595794:* `Time`
+595894:* `TimedEval`
+210472:* `ToArray`
+210484:* `ToBitmap`
+210497:* `ToCylindrical`
+210515:* `ToDMS`
+210565:* `ToGrads`
+210577:* `ToGrob`
+210588:* `ToHMS`
+595803:* `ToHMS`
+210598:* `ToHPGrob`
+210611:* `ToLCD`
+210621:* `ToList`
+210670:* `ToPolar`
+210682:* `ToSpherical`
+210698:* `ToStr`
+210716:* `ToTag`
+210726:* `ToUnit`
+210525:* `ToggleCustomMenu`
+210546:* `ToggleUserMode`
+210646:* `TooManyDigitsErrors`
+210632:* `ToolsMenu`
+210708:* `Tot`
+288310:* `Tr`
+210737:* `TrailingDecimal`
+210757:* `Tran`
+325185:* `Treal`
+288338:* `Tri`
+210766:* `TrigIdentitiesMenu`
+210801:* `Trn`
+210809:* `Trnc`
+210818:* `True`
+447733:* `Trunc`
+210827:* `TruthLogicForIntegers`
+191507:* `TruthPlot`
+210921:* `TwoDigitYear`
+210938:* `TwosComplement`
+210966:* `TypeName`
+210957:* `Type`
+210979:* `UBase`
+217462:* `UFL1→MINIF`
+210989:* `UFact`
+283632:* `UGf`
+283545:* `UGi`
+210999:* `UIAlgebraic`
+211015:* `UIAlpha`
+211027:* `UIBackspace`
+211043:* `UIDecimal`
+211057:* `UIDelete`
+211070:* `UIDown`
+211081:* `UIEnter`
+211093:* `UIExit`
+211115:* `UILeftShift`
+211104:* `UILeft`
+211131:* `UILowercase`
+211147:* `UINoAlpha`
+211161:* `UINoShift`
+211187:* `UIRightShift`
+211175:* `UIRight`
+211204:* `UIText`
+211215:* `UIUp`
+216385:* `UNASSIGN`
+216398:* `UNASSUME`
+216411:* `UNBIND`
+211510:* `USBPowered`
+216422:* `UTPC`
+216431:* `UTPF`
+216440:* `UTPN`
+216449:* `UTPT`
+211764:* `UVal`
+293889:* `U`
+211446:* `UnPick`
+211457:* `UnRot`
+211224:* `UndefinedError`
+211243:* `UndefinedResultIndicator`
+211272:* `UndefinedValue`
+211291:* `UnderflowError`
+211310:* `UnderflowValue`
+211329:* `Undo`
+211356:* `UnimplementedForeground`
+211338:* `Unimplemented`
+211384:* `UnitsConversionsMenu`
+211409:* `UnitsMenu`
+211423:* `UnitsSIPrefixCycle`
+211467:* `UpDir`
+211491:* `UpperCaseNames`
+211477:* `UpperCase`
+211525:* `UseCrossForMultiplication`
+211555:* `UseDotForMultiplication`
+211583:* `UserCommandBackground`
+211609:* `UserCommandBorder`
+211631:* `UserCommandForeground`
+211657:* `UserInterfaceModesMenu`
+211697:* `UserModeLock`
+211714:* `UserModeMenu`
+211731:* `UserModeOff`
+211747:* `UserModeOnce`
+211684:* `UserMode`
+396440:* `V0`
+261870:* `V1`
+216458:* `VANDERMONDE`
+340949:* `VBC`
+341022:* `VBE`
+341157:* `VBS`
+341222:* `VCEsat`
+341312:* `VDS`
+341381:* `VDsat`
+216474:* `VER`
+341449:* `VGS`
+298306:* `VH`
+216492:* `VISITB`
+216482:* `VISIT`
+216503:* `VPOTENTIAL`
+216518:* `VTYPE`
+212020:* `VX`
+254369:* `V`
+261799:* `V`
+288464:* `V`
+336047:* `V`
+340887:* `Va`
+211773:* `Var`
+211871:* `VariableWidthDigits`
+211799:* `VariablesMenuExecute`
+211824:* `VariablesMenuRecall`
+211848:* `VariablesMenuStore`
+211781:* `VariablesMenu`
+211895:* `Vars`
+341093:* `Vbi`
+211904:* `VectorMenu`
+211919:* `Version`
+211931:* `VerticalLists`
+211949:* `VerticalProgramRendering`
+211978:* `VerticalVectors`
+261999:* `Vf`
+288501:* `Vf`
+261937:* `Vi`
+288478:* `Vi`
+262059:* `Vmax`
+308897:* `Vol`
+211998:* `VoltageForeground`
+370227:* `Vs`
+341581:* `Vt0`
+341517:* `Vt`
+370273:* `Vxsun`
+212027:* `V→`
+216535:* `WIREFRAME`
+217479:* `WSLOG`
+278347:* `W`
+283474:* `W`
+288564:* `W`
+341674:* `W`
+190805:* `Wait`
+212036:* `Wait`
+595885:* `Wait`
+341832:* `We`
+262123:* `XC`
+212045:* `XCol`
+217489:* `XGET`
+262200:* `XL`
+212054:* `XLib`
+217498:* `XMIT`
+216549:* `XNUM`
+217507:* `XPUT`
+216558:* `XQ`
+217516:* `XRECV`
+212107:* `XRng`
+217526:* `XSEND`
+217536:* `XSERV`
+216565:* `XVOL`
+212126:* `XVars`
+216574:* `XXRNG`
+212063:* `XlibName`
+212076:* `XlibValue`
+212090:* `Xor`
+212144:* `YCol`
+212180:* `YRng`
+216584:* `YSLICE`
+216595:* `YVOL`
+216604:* `YYRNG`
+212153:* `YearFirst`
+212167:* `YearLast`
+216614:* `ZEROS`
+216624:* `ZFACTOR`
+216636:* `ZVOL`
+410397:* `ZX`
+409659:* `ZXα`
+410082:* `ZXβ⊕`
+409936:* `ZXβ⊖`
+409793:* `ZY1`
+409864:* `ZY2`
+410447:* `ZY`
+409727:* `ZYα`
+410156:* `ZYβ⊕`
+410010:* `ZYβ⊖`
+288615:* `Z`
+409635:* `Z`
+410228:* `Za`
+410313:* `Zb`
+212189:* `ZeroOverZeroIsError`
+212213:* `ZeroOverZeroIsUndefined`
+212241:* `ZeroPowerZeroIsOne`
+212264:* `ZeroPowerZeroIsUndefined`
+288714:* `Zf`
+288660:* `Zi`
+27506:* `[ 1 2 3 ] 4 +`
+198899:* `^`
+253680:* `a`
+307492:* `a`
+316653:* `a`
+324598:* `a`
+338756:* `a`
+585135:* `a`
+407201:* `abdaughter`
+407251:* `abparent`
+198905:* `abs`
+407302:* `abtot`
+198913:* `acos`
+198922:* `acosh`
+622064:* `alg`
+199004:* `alog`
+177026:* `and`
+199058:* `and`
+365894:* `apx`
+365976:* `apy`
+366058:* `apz`
+282244:* `ar`
+307546:* `ar`
+199140:* `arg`
+351955:* `as`
+199179:* `asin`
+199188:* `asinh`
+282284:* `at`
+199232:* `atan`
+199241:* `atanh`
+365774:* `ax`
+352137:* `ay`
+365814:* `ay`
+365854:* `az`
+330992:* `b`
+335459:* `b`
+191211:* `bins`
+253746:* `c`
+292498:* `c`
+199889:* `ceil`
+200169:* `comb`
+200426:* `conj`
+200505:* `cont`
+200577:* `cos`
+200585:* `cosh`
+260031:* `d`
+287468:* `d`
+297487:* `d`
+316688:* `d`
+331144:* `d`
+335478:* `d`
+394215:* `d`
+122300:* `db48x.md`
+122210:* `db48x.pgm`
+201162:* `dbug`
+201291:* `det`
+213551:* `dn`
+201536:* `doerr`
+201568:* `dot`
+292572:* `eb12`
+292654:* `eb`
+394513:* `eb`
+394420:* `ebfafb`
+177451:* `equiv`
+202161:* `equiv`
+202171:* `erf`
+202179:* `erfc`
+202188:* `err0`
+202197:* `errm`
+202206:* `errn`
+177562:* `excludes`
+202336:* `excludes`
+202394:* `exp2`
+202386:* `exp`
+202486:* `expm`
+260454:* `f0`
+352761:* `f0`
+394811:* `f0`
+394872:* `f1`
+394950:* `f2`
+395028:* `f3`
+395106:* `f4`
+260421:* `f`
+277665:* `f`
+292716:* `f`
+316775:* `f`
+324709:* `f`
+352591:* `f`
+367682:* `f`
+394747:* `f`
+395184:* `fa`
+352641:* `favg`
+395262:* `fb`
+352702:* `fbeat`
+297587:* `fc`
+352821:* `ffixed-fixed`
+352926:* `ffixed-free`
+202722:* `floor`
+353154:* `fopen-close`
+353054:* `fopen-open`
+395340:* `fpeak`
+367784:* `fpr`
+307611:* `fr`
+367956:* `frl`
+368042:* `frt`
+367886:* `fs`
+316872:* `fx`
+316795:* `fx₀`
+339278:* `gds`
+307743:* `gearth`
+307658:* `gloc`
+339347:* `gm`
+292870:* `h1`
+368126:* `h1`
+368152:* `h2`
+292967:* `h3`
+277740:* `hL`
+277696:* `h`
+292774:* `h`
+307819:* `h`
+324831:* `h`
+331192:* `h`
+335526:* `h`
+307850:* `hmax`
+368178:* `hp`
+585211:* `i`
+623172:* `i`
+460741:* `if`
+460857:* `if`
+204032:* `im`
+177324:* `implies`
+204302:* `inv`
+293144:* `k1`
+293225:* `k2`
+293306:* `k3`
+282651:* `k`
+287494:* `k`
+293064:* `k`
+324970:* `k`
+353345:* `k`
+585333:* `k`
+204555:* `lgamma`
+214526:* `lim`
+204735:* `ln1p`
+204728:* `ln`
+204762:* `log2`
+204754:* `log`
+368302:* `m0`
+282857:* `m1`
+282876:* `m2`
+408805:* `mX`
+408858:* `mY`
+282845:* `m`
+287540:* `m`
+293446:* `m`
+297824:* `m`
+307900:* `m`
+317335:* `m`
+325052:* `m`
+335974:* `m`
+396302:* `m`
+408685:* `ma`
+204945:* `mant`
+408745:* `mb`
+263387:* `meeff`
+263422:* `mheff`
+205323:* `mod`
+317383:* `n1`
+317423:* `n2`
+263043:* `n`
+277861:* `n`
+287610:* `n`
+317356:* `n`
+331697:* `n`
+421800:* `n`
+585453:* `n`
+622929:* `n`
+177253:* `nand`
+263098:* `ne`
+205613:* `neg`
+317463:* `nf0`
+317543:* `nf1`
+317608:* `nf2`
+263148:* `nh`
+340774:* `ni`
+353423:* `ninteger`
+297865:* `nl`
+409092:* `nn`
+353478:* `nodd`
+177289:* `nor`
+177205:* `not`
+206049:* `not`
+253419:* `o`
+177081:* `or`
+206457:* `or`
+368687:* `p`
+396251:* `p`
+622741:* `p`
+206596:* `perm`
+623281:* `positive`
+368955:* `ppx`
+369040:* `ppy`
+369125:* `ppz`
+368739:* `px`
+368811:* `py`
+368883:* `pz`
+261120:* `q1`
+261167:* `q2`
+261086:* `q`
+297923:* `q`
+396314:* `q`
+215269:* `qr`
+293518:* `qr`
+261215:* `qtest`
+317705:* `r1`
+317733:* `r2`
+254343:* `r`
+261326:* `r`
+283197:* `r`
+297992:* `r`
+308216:* `r`
+317678:* `r`
+331737:* `r`
+335986:* `r`
+348981:* `r`
+396376:* `r`
+623107:* `r`
+207244:* `rand`
+308230:* `rc`
+207432:* `rcws`
+207441:* `rdz`
+207449:* `re`
+207516:* `rem`
+261556:* `ri`
+298078:* `ri`
+331751:* `ri`
+261578:* `ro`
+298110:* `ro`
+331773:* `ro`
+215553:* `rref`
+331796:* `rs`
+369405:* `rs`
+331832:* `rv`
+298143:* `rw`
+369435:* `rxearth`
+353589:* `s`
+208147:* `same`
+208839:* `sign`
+208921:* `sin`
+208989:* `sinh`
+353796:* `sm`
+209253:* `sq`
+209349:* `sst`
+209867:* `stws`
+261747:* `t`
+283298:* `t`
+308264:* `t`
+325086:* `t`
+336000:* `t`
+353994:* `t`
+409552:* `t`
+210094:* `tan`
+210102:* `tanh`
+369582:* `tev`
+261780:* `tf`
+308276:* `tf`
+308315:* `tfr`
+261759:* `ti`
+340847:* `tox`
+369655:* `tp`
+288375:* `trf`
+369711:* `txyr`
+298166:* `uB`
+262620:* `uE`
+317761:* `u`
+354238:* `u`
+585504:* `u`
+122362:* `units.csv`
+369869:* `upx`
+369947:* `upy`
+370025:* `upz`
+369761:* `ux`
+369797:* `uy`
+369833:* `uz`
+308669:* `v0`
+278270:* `v1`
+317812:* `v1`
+370103:* `v1`
+283349:* `v1f`
+283435:* `v1i`
+278296:* `v2`
+317868:* `v2`
+370135:* `v2`
+283379:* `v2f`
+283310:* `v`
+298245:* `v`
+308390:* `v`
+317787:* `v`
+325270:* `v`
+331870:* `v`
+354297:* `v`
+370599:* `v`
+396504:* `v`
+622490:* `v`
+622361:* `value`
+278320:* `vavg`
+308743:* `vcx`
+308796:* `vcy`
+263023:* `vd`
+308694:* `ve`
+370632:* `ve`
+283326:* `vf`
+370167:* `vg`
+283410:* `vi`
+396537:* `vmax`
+317924:* `vn`
+308847:* `vo`
+354479:* `vr`
+288522:* `vrms`
+354532:* `vs`
+354789:* `vsair`
+308934:* `vt`
+354874:* `vy`
+254395:* `w`
+309021:* `x0`
+254433:* `x`
+283525:* `x`
+308987:* `x`
+325293:* `x`
+354951:* `x`
+370326:* `x`
+341856:* `xd`
+341887:* `xdmax`
+309057:* `xfr`
+325351:* `xh`
+341920:* `xj`
+325320:* `xm`
+177140:* `xor`
+325401:* `xp`
+370440:* `xp`
+212098:* `xpon`
+212116:* `xroot`
+212136:* `x³`
+309124:* `y0`
+278402:* `y1`
+278425:* `y2`
+254460:* `y`
+309092:* `y`
+318092:* `y`
+354967:* `y`
+370364:* `y`
+370493:* `yp`
+370402:* `z`
+370681:* `z`
+370721:* `znl`
+370546:* `zp`
+27038:* `{ 1 2 3 } 4 +`
+212293:* `|`
+259353:* `ΔI`
+408603:* `ΔKtot`
+338477:* `ΔL`
+277379:* `ΔP`
+292454:* `ΔT`
+259436:* `ΔV`
+338626:* `ΔW`
+407006:* `Δm`
+351450:* `Δp`
+351550:* `Δpm`
+259415:* `Δt`
+364085:* `Δt`
+364300:* `ΔtpG`
+364268:* `Δtp`
+364349:* `Δx`
+364380:* `Δxp`
+277442:* `Δy`
+315902:* `Δydiff`
+315831:* `Δyint`
+315622:* `Δα`
+365357:* `ΔτE`
+365291:* `ΔτWE`
+365406:* `ΔτW`
+365455:* `Δτg`
+365527:* `ΔτpE`
+365627:* `ΔτpW`
+315729:* `Δφ`
+282152:* `Θ`
+212306:* `Σ+`
+212314:* `Σ-`
+212322:* `ΣDat`
+277465:* `ΣK`
+212332:* `ΣLine`
+212343:* `ΣList`
+212354:* `ΣPar`
+212372:* `ΣX2`
+212381:* `ΣXY`
+212364:* `ΣX`
+212398:* `ΣY2`
+212390:* `ΣY`
+212299:* `Σ`
+296998:* `α1`
+297078:* `α2`
+338127:* `αF`
+338169:* `αR`
+262685:* `αT`
+281794:* `α`
+292196:* `α`
+306930:* `α`
+363835:* `α`
+621965:* `α`
+330915:* `β`
+351361:* `β`
+363903:* `β`
+393278:* `β`
+363936:* `βe`
+364035:* `βg`
+363986:* `βp`
+364673:* `γ21`
+364888:* `γG1`
+364965:* `γG2`
+364827:* `γG`
+324492:* `γ`
+338211:* `γ`
+347589:* `γ`
+364650:* `γ`
+393748:* `γ`
+364741:* `γv1`
+364784:* `γv2`
+292261:* `δ`
+347548:* `δ`
+253710:* `ε`
+277225:* `ε`
+307322:* `θ0`
+316333:* `θ0`
+316566:* `θB`
+253617:* `θ`
+297298:* `θ`
+307276:* `θ`
+315984:* `θ`
+324579:* `θ`
+330948:* `θ`
+348520:* `θ`
+365159:* `θ`
+393512:* `θ`
+316590:* `θc`
+351811:* `θcone`
+348543:* `θp1`
+348605:* `θp2`
+365225:* `θp`
+316614:* `θr`
+348667:* `θs`
+258901:* `θ₁`
+297159:* `θ₁`
+316431:* `θ₁`
+258971:* `θ₂`
+297232:* `θ₂`
+316498:* `θ₂`
+292295:* `λ1`
+364416:* `λ1`
+292343:* `λ2`
+364495:* `λ2`
+262769:* `λ`
+287168:* `λ`
+315959:* `λ`
+338273:* `λ`
+351664:* `λ`
+393970:* `λ`
+406939:* `λ`
+292391:* `λmax`
+394056:* `λp`
+364574:* `λ∞`
+277258:* `μ`
+351887:* `μ`
+263194:* `μe`
+263271:* `μh`
+338337:* `μn`
+258690:* `μr`
+297386:* `μr`
+259245:* `ρ0`
+287368:* `ρ0`
+259043:* `ρ`
+277328:* `ρ`
+282045:* `ρ`
+287206:* `ρ`
+307219:* `ρ`
+351742:* `ρ`
+287262:* `ρr`
+287331:* `ρrf`
+287292:* `ρri`
+347705:* `σ1`
+347782:* `σ2`
+262276:* `σ`
+347647:* `σ`
+347859:* `σavg`
+253471:* `σcr`
+253544:* `σmax`
+348027:* `σx1`
+347953:* `σx`
+348184:* `σy1`
+348110:* `σy`
+282102:* `τ`
+348267:* `τ`
+263344:* `τc`
+348324:* `τmax`
+348392:* `τx1y1`
+348461:* `τxy`
+258823:* `φ`
+307461:* `φ`
+324559:* `φ`
+347624:* `φ`
+365128:* `φ`
+393311:* `φ`
+258843:* `φp`
+338414:* `φp`
+258873:* `φs`
+258721:* `ω`
+281858:* `ω`
+306994:* `ω`
+324297:* `ω`
+351683:* `ω`
+365042:* `ω`
+281981:* `ωf`
+281915:* `ωi`
+324422:* `ωu`
+258766:* `ω₀`
+307152:* `ω₀`
+324354:* `ω₀`
+347567:* `ϵ`
+161140:* `→ a b c « a b ^ c + »`
+160959:* `→ a b « a b ^ »`
+160783:* `→ a « a a ^ »`
+190872:* `→%Range`
+212407:* `→2D`
+212417:* `→3D`
+212427:* `→Cartesian`
+212444:* `→Col`
+213444:* `→DIAG`
+212455:* `→Deg`
+213914:* `→FONT`
+214103:* `→HEADER`
+217091:* `→KEYTIME`
+217146:* `→LANGUAGE`
+214712:* `→MINIFONT`
+217206:* `→NDISP`
+212466:* `→Num`
+212477:* `→Poly`
+212489:* `→Prg`
+212509:* `→QDigits`
+212524:* `→QIterations`
+212500:* `→Q`
+215542:* `→ROW`
+212543:* `→Rad`
+212554:* `→Row`
+212565:* `→Ur`
+212575:* `→Us`
+212585:* `→πr`
+212596:* `↓Match`
+212609:* `∂`
+212617:* `∆List`
+258658:* `∈r`
+212637:* `∏List`
+212629:* `∏`
+212649:* `√`
+212657:* `∛`
+212665:* `∠`
+212673:* `∫`
+172425:* `≠`
+212681:* `≠`
+172468:* `≤`
+212689:* `≤`
+172519:* `≥`
+212697:* `≥`
+212705:* `⊿`
+212713:* `Ⓓ`
+212721:* `▶`
+212729:* `⨯`

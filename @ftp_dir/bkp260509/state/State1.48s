@@ -1,0 +1,1148 @@
+Directory {
+	PV 0
+	FV -6.08319138270146401841852E3
+	Pmt 500
+	I%Yr 3
+	n 12
+	PYr 12
+	Trq 1.11408460164326735038220E1_N·m
+	Pas 10_mm
+	F 7000_N
+	Physics
+		Directory {
+			PlotParameters
+				{
+					-0.200-ⅈ0.220 1.20+ⅈ1.80
+					{ x -10 10 } 0
+					{
+						0+ⅈ0
+						{ 1 1 } "x" "y"
+					}
+					FunctionPlot y
+				}
+			KineticEnergy
+				«
+					@ Select drawing range
+					-0.200 1.20 PlotXRange
+					-0.220 1.80 PlotYRange
+					@ Draw the C limit on the right
+					5 LineWidth 0.700
+					0.700 0.900 RGBPattern
+					Foreground 1-ⅈ5
+					1+ⅈ5 DrawLine
+					@ Draw axes
+					0 0 0 RGBPattern
+					Foreground 1 LineWidth
+					DrawAxes
+					@ Draw the classical case (red)
+					0.700 0 0 RGBPattern
+					Foreground 3 LineWidth
+					'1/2·(Max(x;0))²'
+					FunctionPlot "Classical"
+					{ 0.700 0.200 0 }
+					DrawText
+					@ Draw the relativistic case (green)
+					2 LineWidth 0 0.700
+					0 RGBPattern Foreground
+					'1÷√(1-(Min(Max(x;0);0.999))²)-1'
+					FunctionPlot "Relativistic"
+					{ 0.550 1.00 0 }
+					DrawText
+					@ Axes labels
+					0 0 0.500 RGBPattern
+					Foreground "Kinetic Energy"
+					{ -0.150 1.35 0 }
+					DrawText "Speed"
+					{ 1.03 -3.00E-2 0
+					} DrawText "c"
+					{ 0.950 -2.50E-2
+						1 } DrawText "0.1·c ↑"
+					{ 9.50E-2 -2.50E-2
+						1 } DrawText 1 LineWidth
+					16#0 Foreground
+				»
+		}
+	Math
+		Directory {
+			CntPt
+				«
+					«
+						CountPrimes
+					»
+					TimedEval
+				»
+			Collatz
+				«
+					Duplicate "	  " +
+					1 DrawText
+					if
+						USBPowered
+					then
+						AvailableMemory
+						2 DrawText
+					end
+					if
+						Duplicate 1 ≠
+					then
+						if
+							Duplicate 2 mod
+						then
+							3 × 1 +
+						else
+							2 ÷
+						end Collatz
+					end
+				»
+			CollatzBenchmark
+				«
+					«
+						989345275647 Collatz
+					»
+					TimedEval
+				»
+			CountPrimes
+				«
+					if
+						Depth 1 <
+					then
+						1000
+					end
+					«
+						3 Over Duplicate
+						2 ≤ Swap 2 mod
+						or
+						→ n d r
+						«
+							while
+								r d x² n ≤
+								and
+							repeat
+								n d mod 'r' Store
+								d 2 + 'd' Store
+							end
+							r not not
+						»
+					»
+					1
+					→ MaxNumber CheckIfPrime
+					Count
+					«
+						3 MaxNumber
+						for i
+							if
+								i CheckIfPrime
+							then
+								'Count' Increment
+								Drop
+							end
+							2
+						step
+						Count
+					»
+				»
+			EquationSolving
+				«
+					{ 'AA²+BB²=CC²'
+						'sin α÷a=sin β÷b'
+						'sin β÷b=sin γ÷c'
+						'sin α÷b=sin γ÷c'
+						'α+β+γ=180' 's=(a+b+c)÷2'
+						'A=√(s·(s-a)·(s-b)·(s-c))'
+						'c²=a²+b²-2·a·b·cos
+						γ' 'b²=a²+c²-2·a·c·cos
+						β' 'a²=b²+c²-2·b·c·cos
+						α' } StoreEquation
+					10_m 'AA' Store 85_ft
+					'BB' Store 1_cm 'CC'
+					Store SolvingMenu
+				»
+			MultiSolver
+				«
+					[ 'sin X=0.5·cos
+						Y' 'sin X=0.3·cos
+						X' ]
+					[ 'X' 'Y' ]
+					[ 1 1 ] SolverMenu
+					Root
+				»
+			RombergPlot
+				«
+					-0.600 20 PlotXRange
+					-0.200 2 PlotYRange
+					DrawAxes 1.00E-10
+					100
+					«
+						→ x
+						«
+							'x↑3÷expm1 x'
+							Evaluate
+							→ y
+							«
+								Ticks Foreground
+								x 0 ℝ→ℂ
+								x y ℝ→ℂ
+								DrawLine 16#0
+								Foreground y
+							»
+						»
+					»
+					'x' ∫ "I=" Swap
+					+
+					{ 12 1.50 0 } DrawText
+				»
+		}
+	Graphics
+		Directory {
+			Plotting
+				«
+					Degrees 16#0 Foreground
+					1 LineWidth 'sin(325·X)·LogGamma
+					X' FunctionPlot 2
+					LineWidth 'X' PolarPlot
+					3 LineWidth 16#AAAAAAAAAAAAAAAA
+					Foreground
+					«
+						'9.5·sin(3.127E1·X)'
+						Evaluate '5.5·cos(4.242E1·X)'
+						Evaluate ℝ→ℂ
+					»
+					ParametricPlot 16#0
+					Foreground 0 Wait
+					Drop
+					[ 1 2 3 4 5 6 7 8
+						9 10 11 12 13 14
+						15 16 17 18 19 20
+					] 25 × sin BarPlot
+					0 Wait Drop ClearLCD
+					16#CCCCCCCCCCCCCCCC
+					Foreground
+					[[ 1 -1 ]
+					  [ 2 -2 ]
+					  [ 3 -3 ]
+					  [ 4 -4 ]
+					  [ 5 -6 ]
+					  [ 7 -8 ]
+					  [ 9 -10 ]] 33 ×
+					cos 2 × BarPlot
+					0 Wait Drop ClearLCD
+					[[ -5 -5 ]
+					  [ -3 0 ]
+					  [ -5 5 ]
+					  [ 0 3 ]
+					  [ 5 5 ]
+					  [ 3 0 ]
+					  [ 5 -5 ]
+					  [ 0 -3 ]
+					  [ -5 -5 ]] Duplicate
+					NoCurveFilling 16#1111111111111111
+					Foreground 12 LineWidth
+					ScatterPlot CurveFilling
+					16#0 Foreground 1
+					LineWidth ScatterPlot
+				»
+			WalkMan
+				«
+					@ A little character, from p 2-39 of HP50G advanced reference
+					@ This tests the compatibility for GROB format
+					grob 9 15 E300140015001C001400E3008000C110AA00940090004100220014102800
+					→ Walk
+					«
+						ClearLCD
+						{ 16#0 16#40 } GraphicPicture
+						Over Walk GraphicXor
+						1 99999
+						for i
+							i 420 mod RealToBinary
+							16#40 2 →List
+							GraphicPicture
+							Over Walk GraphicXor
+							GraphicPicture
+							Rot Walk GraphicXor
+							@ Set flag 48 for HP-48-style slow walk
+							if
+								48 TestFlagSet
+							then
+								0.200 Wait 5
+							else
+								1.00E-2 Wait 1
+							end
+						step
+					»
+				»
+			Lines
+				«
+					@ Helper program to draw a line at index i
+					«
+						10 6
+						→ i XSize YSize
+						«
+							@ Build starting point
+							{ }
+							@ X coordinate
+							i sin XSize ×
+							+
+							@ Y coordinate
+							i 2.17 × cos YSize
+							× +
+							@ Build end point
+							{ }
+							@ X coordinate
+							i 2.30 × sin XSize
+							× +
+							@ Y coordinate
+							i 2.61500 × cos
+							YSize × +
+							@ Draw the line and wait for 1ms
+							DrawLine
+						»
+					»
+					→ MyLine
+					«
+						Degrees ClearLCD
+						0 360000
+						for i
+							@ Erase old line
+							1 10
+							for g
+								g 10 ÷ GrayPattern
+								Foreground i 100
+								g + - MyLine
+							next
+							@ Set random foreground and draw new line
+							if
+								Ticks 1000 ÷
+								10 mod 7 <
+							then
+								16#0 Foreground
+							else
+								16#1111111111111111
+								i 16 mod × Foreground
+							end i MyLine
+							@ Wait 1ms
+							1.00E-3 Wait
+						next
+					»
+				»
+			Texts
+				«
+					@ Restore foreground and background in case we interrupted another program
+					0 GrayPattern Foreground
+					64 WordSize 1 GrayPattern
+					Background 0 300
+					for i
+						"Text line i=" i
+						+ " " + i 9 mod
+						DrawText 1.00E-2
+						Wait
+					next
+					0 300
+					for i
+						"Fractional line i="
+						i + " " + i 16 ÷
+						9 mod DrawText 1.00E-2
+						Wait
+					next
+					«
+						Duplicate2 DrawText
+						1.00E-2 Wait 'Foreground'
+						Recall
+						→ fg
+						«
+							1 GrayPattern Foreground
+							DrawText fg Foreground
+						»
+					»
+					→ DispThenErase
+					«
+						ClearLCD 0 300
+						for i
+							" Pixel positioning "
+							{ 16#C8 16#78 2
+								True True 0 0
+							} DrawText "Pos "
+							{ } 16#0 i + 223
+							mod + 16#0 i 45
+							mod + 25 + + Duplicate
+							Rot Swap →Text
+							+ " " + Swap DispThenErase
+						next
+						ClearLCD Degrees
+						1 360
+						for i
+							" Complex positioning "
+							{ 16#C8 16#78 2
+								True True 0 0
+							} DrawText " Angle "
+							i + 4.50 i ℝ→Polarℂ
+							2.90 - DispThenErase
+						next
+						ClearLCD 1 360
+						for i
+							" Scaled positioning "
+							{ 16#C8 16#78 2
+								True True 0 0
+							} DrawText " Angle "
+							i +
+							{ } i cos 7 ×
+							2.90 - + i 3 ×
+							sin 3 × + DispThenErase
+						next
+					»
+					ClearLCD " Fonts "
+					{ 16#C8 16#B4 2 True
+						True 0 1 } DrawText
+					0 11
+					for f
+						"Font " f +
+						{
+							{ 16#A 16#0 }
+							{ 16#A 16#30 }
+							{ 16#A 16#50 }
+							{ 16#A 16#62 }
+							{ 16#A 16#82 }
+							{ 16#F0 16#0 }
+							{ 16#F0 16#19 }
+							{ 16#F0 16#2D }
+							{ 16#F0 16#40 }
+							{ 16#F0 16#54 }
+							{ 16#F0 16#78 }
+							{ 16#F0 16#96 }
+						}
+						f 1 + Get f + DrawText
+					next
+					1.50 Wait ClearLCD
+					" Patterns "
+					{ 16#C8 16#B4 2 True
+						True 0 1 } DrawText
+					0 15
+					for p
+						16#1111111111111111
+						p × Foreground
+						0 11
+						for f
+							"Font " f +
+							{
+								{ 16#A 16#0 }
+								{ 16#A 16#30 }
+								{ 16#A 16#50 }
+								{ 16#A 16#62 }
+								{ 16#A 16#82 }
+								{ 16#F0 16#0 }
+								{ 16#F0 16#19
+								}
+								{ 16#F0 16#2D
+								}
+								{ 16#F0 16#40
+								}
+								{ 16#F0 16#54
+								}
+								{ 16#F0 16#78
+								}
+								{ 16#F0 16#96
+								}
+							}
+							f 1 + Get f + DrawText
+						next
+						0.200 Wait
+					next
+					ClearLCD 16#0 Foreground
+					" Background "
+					{ 16#C8 16#B4 2 True
+						True 0 1 } DrawText
+					16#FFFFFFFFFFFFFFFF
+					Foreground 0 15
+					for p
+						16#1111111111111111
+						p × Background
+						0 11
+						for f
+							"Font " f +
+							{
+								{ 16#A 16#0 }
+								{ 16#A 16#30 }
+								{ 16#A 16#50 }
+								{ 16#A 16#62 }
+								{ 16#A 16#82 }
+								{ 16#F0 16#0 }
+								{ 16#F0 16#19
+								}
+								{ 16#F0 16#2D
+								}
+								{ 16#F0 16#40
+								}
+								{ 16#F0 16#54
+								}
+								{ 16#F0 16#78
+								}
+								{ 16#F0 16#96
+								}
+							}
+							f 1 + Get f + DrawText
+						next
+						0.200 Wait
+					next
+					ClearLCD 0 GrayPattern
+					Foreground 1 GrayPattern
+					Background " Align left "
+					{ 16#0 16#78 2 True
+						True 1 0 } DrawText
+					" Align Right "
+					{ 16#190 16#78 2
+						True True -1 0 }
+					DrawText " Center "
+					{ 16#C8 16#78 2 True
+						True 0 0 } DrawText
+					" Align Top "
+					{ 16#C8 16#0 2 True
+						True 0 1 } DrawText
+					" Align Bottom "
+					{ 16#C8 16#F0 2 True
+						True 0 -1 } DrawText
+				»
+			Shapes
+				«
+					@ Helper program to generate the coordinates
+					«
+						→ i
+						«
+							16#1111111111111111
+							i 16 mod × Foreground
+							{ } i 2.51 × sin
+							9.50 × + i 3.21
+							× cos 4.50 ×
+							2.00 + +
+							{ } i 1.03 × sin
+							9.50 × + i 5.17
+							× cos 4.50 ×
+							2.00 + +
+						»
+					»
+					→ Coords
+					«
+						ClearLCD 16#0 Foreground
+						" Rectangles "
+						{ 16#C8 16#B4 3
+							True True 0 1 }
+						DrawText 0 LineWidth
+						0 300
+						for i
+							i Coords DrawRectangle
+							1.00E-2 Wait
+						next
+						ClearLCD 16#0 Foreground
+						" Outlines "
+						{ 16#C8 16#B4 3
+							True True 0 1 }
+						DrawText 0 LineWidth
+						0 300
+						for i
+							i 7 mod 1 + LineWidth
+							i Coords DrawRectangle
+							1.00E-2 Wait
+						next
+						ClearLCD 16#0 Foreground
+						" Ellipse "
+						{ 16#C8 16#B4 3
+							True True 0 1 }
+						DrawText 0 LineWidth
+						0 300
+						for i
+							i Coords DrawEllipse
+							1.00E-2 Wait
+						next
+						ClearLCD 16#0 Foreground
+						" Outlines "
+						{ 16#C8 16#B4 3
+							True True 0 1 }
+						DrawText 0 LineWidth
+						0 300
+						for i
+							i 7 mod 1 + LineWidth
+							i Coords DrawEllipse
+							1.00E-2 Wait
+						next
+						ClearLCD 16#0 Foreground
+						" Rounded Rect "
+						{ 16#C8 16#B4 3
+							True True 0 1 }
+						DrawText 0 LineWidth
+						0 300
+						for i
+							i Coords 16#0 i
+							75 mod + DrawRoundedRectangle
+							1.00E-2 Wait
+						next
+						ClearLCD 16#0 Foreground
+						" Outlines "
+						{ 16#C8 16#B4 3
+							True True 0 1 }
+						DrawText 0 LineWidth
+						0 300
+						for i
+							i 7 mod 1 + LineWidth
+							i Coords 16#0 i
+							75 mod + DrawRoundedRectangle
+							1.00E-2 Wait
+						next
+						ClearLCD 16#0 Foreground
+						" Clipping "
+						{ 16#C8 16#B4 3
+							True True 0 1 }
+						DrawText 0 LineWidth
+						{ 30 30 370 150
+						} Clip 0 300
+						for i
+							i Coords 16#0 i
+							75 mod + DrawRoundedRectangle
+							1.00E-2 Wait
+						next
+						{ } Clip
+					»
+				»
+			Patterns
+				«
+					Ticks 0 LineWidth
+					0 255
+					for i
+						i 255 ÷ GrayPattern
+						Foreground
+						{ } 16#19 i 16 mod
+						× 1 + + 16#F 16#0
+						i + 16 ÷ × 1 +
+						+
+						{ } 16#19 i 16 mod
+						× 24 + + 16#F 16#0
+						i + 16 ÷ × 14
+						+ + 16#10 DrawRoundedRectangle
+						1.00E-2 Wait
+					next
+					16#0 Foreground Ticks
+					Swap - 1.00E-3 ×
+					"Finished in " Swap
+					+ " s" +
+					{ 16#96 16#64 2 1
+						1 } DrawText "Press a key to continue"
+					{ 16#8C 16#96 2 1
+						1 } DrawText 0 Wait
+					Drop Ticks 0 255
+					for r
+						0 255
+						for g
+							0 255
+							for b
+								r 255 ÷ g 255
+								÷ b 255 ÷ RGBPattern
+								Foreground
+								{ } 16#1 g ×
+								400 × 255 ÷
+								0 + + 16#1 b ×
+								240 × 255 ÷
+								0 + +
+								{ } 16#1 g ×
+								400 × 255 ÷
+								2 + + 16#1 b ×
+								240 × 255 ÷
+								1 + + DrawRectangle
+							next
+						next
+						25
+					step
+					16#0 Foreground Ticks
+					Swap - 1.00E-3 ×
+					"Finished in " Swap
+					+ " s" +
+					{ 16#96 16#64 2 1
+						1 } DrawText "Press a key to continue"
+					{ 16#8C 16#96 2 1
+						1 } DrawText 0 Wait
+					Drop
+				»
+			XYPlots
+				«
+					1 3
+					for i
+						{ 32 128 64 } i
+						Get XYPlotBins
+						«
+							'sin(100·(x²+y²+sin(20·(x-y))))<0.5'
+							TruthPlot
+						»
+						TimedEval "Truth: "
+						Swap + " for " +
+						'XYPlotBins' Recall
+						+ " XYPlotBins"
+						+ Duplicate
+						{ 16#C8 16#3C 0
+							True True 0 0 }
+						DrawText 5 Wait
+						«
+							'0.5·(sin(25·(x·y+x+2·y))+1)'
+							TruthPlot
+						»
+						TimedEval "Real: "
+						Swap + " for " +
+						'XYPlotBins' Recall
+						+ " XYPlotBins"
+						+ Duplicate
+						{ 16#C8 16#3C 0
+							True True 0 0 }
+						DrawText 5 Wait
+						«
+							«
+								x y ℝ→ℂ
+								0.100∡31° ×
+							»
+							TruthPlot
+						»
+						TimedEval "Complex: "
+						Swap + " for " +
+						'XYPlotBins' Recall
+						+ " XYPlotBins"
+						+ Duplicate
+						{ 16#C8 16#3C 0
+							True True 0 0 }
+						DrawText 5 Wait
+					next
+					9 →List 1000 0.100
+					Beep
+				»
+			RandomPlot
+				«
+					0 399
+					for x
+						{ } x RealToBinary
+						+ 0 239 Random RealToBinary
+						+ DrawPixel
+					next
+				»
+			RandomXYPlot
+				«
+					0 25000
+					start
+						{ } 0 399 Random
+						RealToBinary + 0
+						239 Random RealToBinary
+						+ DrawPixel
+					next
+				»
+		}
+	Sound
+		Directory {
+			Beeps
+				«
+					0 50
+					for n
+						2 n 12 ÷ 1 + ↑
+						55 × 1/10 Beep
+					next
+				»
+		}
+	RPL
+		Directory {
+			PathHeader
+				«
+					«
+						Time " " DirectoryPath
+						Tail →Text + +
+						"
+" + Date + " Mem: " +
+						AvailableMemory
+						+
+					»
+					Header 10000 CustomHeaderRefresh
+				»
+			BatteryLevelHeader
+				«
+					10000 CustomHeaderRefresh
+					«
+						BatteryVoltage " "
+						+ LowBattery +
+					»
+					Header
+				»
+			RuntimeStatsHeader
+				«
+					10000 CustomHeaderRefresh
+					«
+						RuntimeStatistics
+						Arry→
+						→ running sleeping
+						runs dims
+						«
+							"" runs + ":" +
+							running UnitValue
+							+ "/" + sleeping
+							UnitValue +
+						»
+					»
+					Header
+				»
+			BatteryStatsHeader
+				«
+					10000 CustomHeaderRefresh
+					@ We want statistics to persist even in case of low-bat crash
+					"BATTERY.CSV" 'ΣData'
+					Store
+					«
+						Time UnitValue →Decimal
+						BatteryVoltage Duplicate2
+						2 →Arry Σ+ ΣSize
+						" " + Swap + " "
+						+ Swap 5 Round +
+						" " + LowBattery
+						+
+					»
+					Header
+				»
+			Anagram
+				Directory {
+					PRANAG
+						«
+							if
+								B 0 >
+							then
+								-1 'B' Store+
+								PRDEPTH Duplicate
+								B -
+								for X
+									X Roll PRANAG
+									X RollDown -1
+								step
+								1 'B' Store+
+							else
+								PRDEPTH DuplicateN
+								PRDEPTH 2 ÷ 1
+								- 1
+								start
+									+ -1
+								step
+								4 DrawText
+							end
+						»
+					PRDEPTH
+						«
+							Depth C -
+						»
+					ANAG
+						«
+							→ A
+							«
+								ClearLCD A Size
+								'B' Store Depth
+								'C' Store 1 B
+								for X
+									A X Duplicate
+									Extract
+								next
+								PRANAG PRDEPTH
+								DropN
+								{ B C } Purge
+							»
+						»
+				}
+			IfTETest
+				«
+					Duplicate 1 =
+					«
+						Drop "One"
+					»
+					«
+						1 < "Less" "More"
+						IfThenElse
+					»
+					IfThenElse '1=1'
+					'1+1' '1·3' IfThenElse
+				»
+			IfThenElseEval
+				«
+					→ x
+					«
+						if
+							'x<1'
+						then
+							"less"
+						else
+							"more"
+						end
+					»
+				»
+			CaseTest
+				«
+					case
+						Duplicate "A" ==
+						then
+							"Alpha"
+						end
+						Duplicate "B" ==
+						then
+							"Beta"
+						end
+						Duplicate "C" ==
+						then
+							"Gamma"
+						end
+						"D"
+						when
+							"Delta"
+						end
+					end
+				»
+			Recurse
+				«
+					1 + Duplicate 1 DrawText
+					AvailableMemory 2
+					DrawText Recurse
+				»
+			Prompting
+				«
+					"Enter value then hit Run key"
+					Prompt 1 + "Next value"
+					→Tag
+				»
+			Inputting
+				«
+					"Enter value then hit Run key"
+					"What?" Input 1 +
+					"Next value" →Tag
+				»
+			CustomMenu
+				[[ D E F ]
+				  [ G H I ]]
+		}
+	Perf
+		Directory {
+			SumTestWithLoop
+				«
+					@ Summation loop
+					@ See https://www.hpmuseum.org/forum/thread-9750.html
+					Radians
+					«
+						0 1 1000
+						for x
+							x tan⁻¹ sin
+							exp ∛ +
+						next
+					»
+					TimedEval
+				»
+			SumTestWithFunction
+				«
+					@ Summation loop
+					@ See https://www.hpmuseum.org/forum/thread-9750.html
+					Radians
+					«
+						x 1 1000 '∛ (exp
+						(sin (tan⁻¹ x)))'
+						Σ
+					»
+					TimedEval
+				»
+			NQueens
+				«
+					«
+						@ User RPL program lifted straight from
+						@ https://www.hpmuseum.org/cgi-sys/cgiwrap/hpmuseum/articles.cgi?read=700
+						0
+						do
+							8 Swap 1 +
+							while
+								Duplicate2
+								do
+									1 -
+								until
+									Duplicate2 5
+									+ Pick - abs
+									Duplicate2 -
+									× not
+								end
+							repeat
+								Drop
+								while
+									Swap Duplicate
+									1 same
+								repeat
+									-
+								end
+								1 - Swap
+							end
+							Drop
+						until
+							Duplicate 8 same
+						end
+						→List
+					»
+					@ Compute execution duration of that code
+					TimedEval
+				»
+			UnitBenchmark
+				«
+					«
+						0 25
+						for i
+							i 1_m/s × 1_km/yr
+							Convert Drop
+						next
+					»
+					TimedEval
+				»
+			MatrixMultiplyBenchmark
+				«
+					if
+						Depth 0 =
+					then
+						20
+					end
+					→ N
+					«
+						«
+							N N 2 →List RanM
+							sin
+						»
+						TimedEval 2 DrawText
+						GarbageCollect 1
+						DrawText
+						«
+							N N 2 →List RanM
+							sin
+						»
+						TimedEval 4 DrawText
+						GarbageCollect 3
+						DrawText GarbageCollectorStatistics
+						'PreGC' Store
+						«
+							×
+						»
+						TimedEval Duplicate
+						6 DrawText GarbageCollectorStatistics
+						'PostGC' ▶
+					»
+				»
+		}
+}
+'Demos' STO
+
+'F=2·Ⓒπ·Trq÷Pas'
+'Equation' STO
+
+'F=2·Ⓒπ·Trq÷Pas'
+'Vis' STO
+
+7000_N
+'F' STO
+
+10_mm
+'Pas' STO
+
+1.11408460164326735038220E1_N·m
+'Trq' STO
+
+«
+	{
+		Demos
+		{
+			"Release"
+			«
+				"Release notes" Help
+				Drop
+			»
+		}
+		{ "RunStats" RuntimeStatistics
+		}
+		{ "VBat" BatteryVoltage
+		}
+		{ "VPow" PowerVoltage
+		}
+		{
+			"VStat"
+			«
+				"BAT.CSV" StoreΣ
+				DateTime UnitValue
+				BatteryVoltage UnitValue
+				1.00E3 ÷ →2D Σ+
+			»
+		}
+		{
+			"Hello"
+			«
+				"Hello" 3 DrawText
+			»
+		}
+		{
+			"Authors"
+			«
+				"Authors" Help Drop
+			»
+		}
+		RunStatsKeepAfterRead
+		MinimumBatteryVoltage
+		LowBattery RecallΣ
+		42_in ⓁKineticEnergy
+		DebugOnError
+	}
+	Time + Date +
+	{ Purge } +
+»
+'CustomMenu' STO
+
+-6.08319E3
+'FV' STO
+
+500
+'Pmt' STO
+
+12
+'PYr' STO
+
+12
+'n' STO
+
+3
+'I%Yr' STO
+
+0
+'PV' STO
+
+1/3
+0
+'√ 2·3÷5-1+25'
+'2.48485281374238570292811E1⁻¹'
+9.38083151964685910913126
+1.25
+3.65E1
+F=7000_N
+Pas=10_mm
+Trq=1.11408460164326735038220E1_N·m
+1.75
+FV=0.
+Pmt=500
+FV=-6.08319E3
+1.39534628774342325628983E3
+:duration:5261_ms
+{ 8 4 1 3 6 2 7 5 }
+:duration:288_ms
+:duration:1205_ms
+1.25
+1.75
+141/4
+9.24
+'1.65·2.8·2+(1.95·2.8·2-0.88·2.1)'
+1.83120E1
+3.21750
+'1.65·2.8·2+1.95·2.8·2-0.88·2.1'
+1.83120E1
+1.23456789
+1.39534628774342325628983E3
+:duration:5343_ms
+1.39534628774342325628983E3
+:duration:5467_ms
+{ 8 4 1 3 6 2 7 5 }
+:duration:295_ms
+:duration:1218_ms
+ShowSeconds
+HardwareFloatingPoint
+Rad
+Dec
+24 FractionIterations
+24 FractionDigits
+VariablesMenu
+ HomeDirectory Demos Perf
